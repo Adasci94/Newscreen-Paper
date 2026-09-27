@@ -1,0 +1,332 @@
+[
+  {
+    "id": "criterion",
+    "name": "Criterion — The Current",
+    "url": "https://www.criterion.com/current",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.criterion.com/feeds/current",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "Criterion Establishes a Canadian Home at Cinema Cellar",
+        "latest_date": "Thu, 10 Sep 2026 12:52:00 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "http://sitemap.criterion.com/index.xml",
+    "html_status": 403
+  },
+  {
+    "id": "vfxvoice",
+    "name": "VFX Voice",
+    "url": "https://www.vfxvoice.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "http://vfxvoice.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "THE NINTH JEDI ESTABLISHES ITS OWN SHINING PATH IN STAR WARS: VISIONS",
+        "latest_date": "Wed, 09 Sep 2026 16:00:27 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 0
+  },
+  {
+    "id": "ascmag",
+    "name": "American Cinematographer",
+    "url": "https://theasc.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://theasc.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "",
+        "latest_date": "Sat, 30 May 2026 19:54:15 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://theasc.com/sitemap_index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "littlewhitelies",
+    "name": "Little White Lies",
+    "url": "https://lwlies.com/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://lwlies.com/sitemaps-2-sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "cannes",
+    "name": "Festival de Cannes",
+    "url": "https://www.festival-cannes.com/en/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://www.festival-cannes.com/sitemap_index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "metaai",
+    "name": "Meta AI",
+    "url": "https://ai.meta.com/blog/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://ai.meta.com/sitemap/ai_meta_com_sitemap.xml.gz",
+    "html_status": 400
+  },
+  {
+    "id": "bfl",
+    "name": "Black Forest Labs",
+    "url": "https://bfl.ai/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://bfl.ai/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io/blog",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://elevenlabs.io/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "url": "https://runwayml.com/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 308
+  },
+  {
+    "id": "luma",
+    "name": "Luma AI",
+    "url": "https://lumalabs.ai/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://lumalabs.ai/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "adobe-blog",
+    "name": "Adobe Blog",
+    "url": "https://blog.adobe.com/en/topics/creativity",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://blog.adobe.com/en/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "venturebeat-ai",
+    "name": "VentureBeat AI",
+    "url": "https://venturebeat.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://feeds.feedburner.com/venturebeat/SZYF",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 7,
+        "latest_title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
+        "latest_date": "Thu, 03 Sep 2026 18:00:12 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://venturebeat.com/sitemap.xml",
+    "html_status": 429
+  },
+  {
+    "id": "thebatch",
+    "name": "The Batch — DeepLearning.AI",
+    "url": "https://www.deeplearning.ai/the-batch/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://www.deeplearning.ai/sitemap.xml",
+    "html_status": 308
+  },
+  {
+    "id": "bair",
+    "name": "Berkeley BAIR Blog",
+    "url": "https://bair.berkeley.edu/blog/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 0
+  },
+  {
+    "id": "lmarena",
+    "name": "LMArena Blog",
+    "url": "https://news.lmarena.ai/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://arena.ai/blog/sitemap.xml",
+    "html_status": 308
+  },
+  {
+    "id": "oscars",
+    "name": "Academy — Oscars",
+    "url": "https://www.oscars.org/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 403
+  },
+  {
+    "id": "yt-welchlabs",
+    "name": "Welch Labs",
+    "url": "https://www.youtube.com/@WelchLabsVideo",
+    "kind": "youtube",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 404
+  },
+  {
+    "id": "yt-welchlabs2",
+    "name": "Welch Labs alt",
+    "url": "https://www.youtube.com/@welchlabs",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UConVfxXodg78Tzh5nNu85Ew",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "How the world’s smartest robot brain works – Physical Intelligence Pi0 VLA",
+        "latest_date": "2026-09-12T14:29:31+00:00"
+      }
+    ],
+    "channel_id": "UConVfxXodg78Tzh5nNu85Ew",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-aputure",
+    "name": "Aputure",
+    "url": "https://www.youtube.com/@AputureChannel",
+    "kind": "youtube",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 404
+  },
+  {
+    "id": "yt-blackmagic",
+    "name": "Blackmagic Design",
+    "url": "https://www.youtube.com/@blackmagicdesign",
+    "kind": "youtube",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 404
+  },
+  {
+    "id": "yt-teamdeakins",
+    "name": "Team Deakins",
+    "url": "https://www.youtube.com/@teamdeakins",
+    "kind": "youtube",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 404
+  },
+  {
+    "id": "yt-cinematography",
+    "name": "Cinematography Database",
+    "url": "https://www.youtube.com/@CinematographyDatabase",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCnw2-4hXY26-W2w9Ja9GBvw",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "Reallusion AI Studio 1.1 First Look and Seedance 2.5 Short Film",
+        "latest_date": "2026-09-07T08:57:57+00:00"
+      }
+    ],
+    "channel_id": "UCnw2-4hXY26-W2w9Ja9GBvw",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-arri",
+    "name": "ARRIChannel",
+    "url": "https://www.youtube.com/@ARRIChannel",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtdsiPRhmJoOrhvnFOyVxeQ",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "ARRI Omnibar as a visible design element",
+        "latest_date": "2026-09-03T20:51:45+00:00"
+      }
+    ],
+    "channel_id": "UCtdsiPRhmJoOrhvnFOyVxeQ",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-thisguyedits",
+    "name": "This Guy Edits",
+    "url": "https://www.youtube.com/@ThisGuyEdits",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCcPuBEAwuF6XWXkcXJXJwsg",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "Become a Go-To Editor: https://www.skool.com/the-go-to-editor/about",
+        "latest_date": "2026-09-09T10:00:21+00:00"
+      }
+    ],
+    "channel_id": "UCcPuBEAwuF6XWXkcXJXJwsg",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-lightsfilmschool",
+    "name": "Lights Film School",
+    "url": "https://www.youtube.com/@LightsFilmSchool",
+    "kind": "youtube",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 404
+  }
+]

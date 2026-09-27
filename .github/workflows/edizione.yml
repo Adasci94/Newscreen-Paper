@@ -1,0 +1,54 @@
+# Costruisce e pubblica il giornale tre volte al giorno, sui computer di
+# GitHub. Non serve che il Mac di casa sia acceso.
+name: Edizione quotidiana
+
+on:
+  schedule:
+    # Gli orari sono in UTC. In Italia d'estate aggiungi 2 ore, d'inverno 1.
+    - cron: '30 5 * * *'    # ~07:30 italiane
+    - cron: '0 11 * * *'    # ~13:00 italiane
+    - cron: '0 18 * * *'    # ~20:00 italiane
+  # Permette di lanciarlo a mano dal sito di GitHub, col pulsante "Run workflow".
+  workflow_dispatch:
+  # E a ogni modifica del progetto, così si vede subito il risultato.
+  push:
+    branches: [main]
+
+# Permessi minimi necessari a pubblicare il sito.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Se parte un aggiornamento mentre ne sta girando un altro, il nuovo aspetta
+# invece di sovrascriverlo a metà.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  costruisci-e-pubblica:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scarica il progetto
+        uses: actions/checkout@v4
+
+      - name: Prepara Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Leggi le fonti e componi l'edizione
+        run: python3 ingest/build.py
+
+      - name: Prepara il sito da pubblicare
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      - name: Pubblica
+        id: pubblicazione
+        uses: actions/deploy-pages@v4
+
+      - name: Indirizzo del giornale
+        run: echo "Pubblicato su ${{ steps.pubblicazione.outputs.page_url }}"

@@ -1,0 +1,107 @@
+[  1/105] OK  Variety                                feeds=2 sitemap=y
+[  2/105] OK  Variety Film                           feeds=2 sitemap=y
+[  3/105] OK  The Hollywood Reporter                 feeds=2 sitemap=y
+[  4/105] OK  The Hollywood Reporter Movies          feeds=2 sitemap=y
+[  5/105] OK  Deadline                               feeds=2 sitemap=y
+[  6/105] OK  Deadline Film                          feeds=2 sitemap=y
+[  7/105] OK  IndieWire                              feeds=2 sitemap=y
+[  8/105] OK  Screen Daily                           feeds=1 sitemap=y
+[  9/105] OK  Cineuropa                              feeds=1 sitemap=y
+[ 10/105] --  CineFacts                              feeds=0 sitemap=y
+[ 11/105] OK  Movieplayer                            feeds=1 sitemap=y
+[ 12/105] --  Criterion — The Current                feeds=0 sitemap=y
+[ 13/105] OK  The Film Stage                         feeds=1 sitemap=y
+[ 14/105] --  VFX Voice                              feeds=0 sitemap=n
+[ 15/105] OK  fxguide                                feeds=1 sitemap=y
+[ 16/105] --  American Cinematographer               feeds=0 sitemap=n
+[ 17/105] OK  No Film School                         feeds=1 sitemap=y
+[ 18/105] OK  befores & afters                       feeds=1 sitemap=y
+[ 19/105] OK  ProVideo Coalition                     feeds=1 sitemap=y
+[ 20/105] OK  postPerspective                        feeds=1 sitemap=y
+[ 21/105] OK  Filmmaker Magazine                     feeds=1 sitemap=y
+[ 22/105] --  Little White Lies                      feeds=0 sitemap=y
+[ 23/105] OK  BFI — Sight and Sound                  feeds=1 sitemap=y
+[ 24/105] OK  Cartoon Brew                           feeds=2 sitemap=y
+[ 25/105] --  Festival de Cannes                     feeds=0 sitemap=y
+[ 26/105] OK  Sundance Institute                     feeds=1 sitemap=y
+[ 27/105] --  Academy — Oscars                       feeds=0 sitemap=n
+[ 28/105] --  Berlinale                              feeds=0 sitemap=y
+[ 29/105] OK  La Biennale di Venezia — Cinema        feeds=1 sitemap=y
+[ 30/105] OK  OpenAI                                 feeds=1 sitemap=y
+[ 31/105] --  Anthropic                              feeds=0 sitemap=y
+[ 32/105] OK  Google DeepMind                        feeds=1 sitemap=y
+[ 33/105] --  Meta AI                                feeds=0 sitemap=y
+[ 34/105] --  xAI                                    feeds=0 sitemap=y
+[ 35/105] OK  Mistral AI                             feeds=1 sitemap=y
+[ 36/105] OK  NVIDIA Developer — Generative AI       feeds=1 sitemap=y
+[ 37/105] OK  NVIDIA Blog                            feeds=1 sitemap=y
+[ 38/105] OK  Google Research                        feeds=2 sitemap=y
+[ 39/105] OK  Google Developers Blog                 feeds=1 sitemap=y
+[ 40/105] OK  Microsoft Research                     feeds=1 sitemap=y
+[ 41/105] OK  Hugging Face Blog                      feeds=1 sitemap=y
+[ 42/105] OK  Stability AI                           feeds=1 sitemap=y
+[ 43/105] --  Black Forest Labs                      feeds=0 sitemap=y
+[ 44/105] --  ElevenLabs                             feeds=0 sitemap=y
+[ 45/105] --  Runway                                 feeds=0 sitemap=n
+[ 46/105] --  Luma AI                                feeds=0 sitemap=y
+[ 47/105] OK  Midjourney Updates                     feeds=1 sitemap=y
+[ 48/105] --  Adobe Blog                             feeds=0 sitemap=y
+[ 49/105] OK  ComfyUI Blog                           feeds=1 sitemap=y
+[ 50/105] OK  ComfyUI Releases (GitHub)              feeds=1 sitemap=n
+[ 51/105] OK  TechCrunch AI                          feeds=1 sitemap=y
+[ 52/105] OK  Ars Technica                           feeds=1 sitemap=y
+[ 53/105] OK  Ars Technica AI                        feeds=1 sitemap=y
+[ 54/105] OK  IEEE Spectrum AI                       feeds=1 sitemap=y
+[ 55/105] --  VentureBeat AI                         feeds=0 sitemap=y
+[ 56/105] OK  The Verge AI                           feeds=2 sitemap=y
+[ 57/105] OK  The Verge                              feeds=1 sitemap=y
+[ 58/105] OK  MIT Technology Review                  feeds=1 sitemap=y
+[ 59/105] OK  The Decoder                            feeds=1 sitemap=y
+[ 60/105] OK  WIRED AI                               feeds=2 sitemap=y
+[ 61/105] OK  Quanta Magazine                        feeds=2 sitemap=y
+[ 62/105] OK  Hackaday                               feeds=1 sitemap=y
+[ 63/105] OK  Lil'Log — Lilian Weng                  feeds=1 sitemap=y
+[ 64/105] OK  Import AI — Jack Clark                 feeds=1 sitemap=y
+[ 65/105] OK  Latent Space                           feeds=1 sitemap=y
+[ 66/105] OK  Simon Willison                         feeds=1 sitemap=y
+[ 67/105] OK  Interconnects — Nathan Lambert         feeds=1 sitemap=y
+[ 68/105] OK  Ahead of AI — Sebastian Raschka        feeds=1 sitemap=y
+[ 69/105] --  The Batch — DeepLearning.AI            feeds=0 sitemap=y
+[ 70/105] --  Berkeley BAIR Blog                     feeds=0 sitemap=n
+[ 71/105] OK  antirez — blog                         feeds=1 sitemap=n
+[ 72/105] OK  Creative Bloq AI                       feeds=2 sitemap=y
+[ 73/105] OK  Curious Refuge                         feeds=1 sitemap=y
+[ 74/105] --  Artificial Analysis                    feeds=0 sitemap=y
+[ 75/105] --  LMArena                                feeds=0 sitemap=y
+[ 76/105] OK  Enkk                                   feeds=1 sitemap=n
+[ 77/105] OK  antirez — Salvatore Sanfilippo         feeds=1 sitemap=n
+[ 78/105] OK  Andrej Karpathy                        feeds=1 sitemap=n
+[ 79/105] OK  Yannic Kilcher                         feeds=1 sitemap=n
+[ 80/105] OK  3Blue1Brown                            feeds=1 sitemap=n
+[ 81/105] OK  Two Minute Papers                      feeds=1 sitemap=n
+[ 82/105] OK  Machine Learning Street Talk           feeds=1 sitemap=n
+[ 83/105] OK  StatQuest                              feeds=1 sitemap=n
+[ 84/105] OK  Curious Refuge                         feeds=1 sitemap=n
+[ 85/105] OK  MattVidPro AI                          feeds=1 sitemap=n
+[ 86/105] OK  Computerphile                          feeds=1 sitemap=n
+[ 87/105] YT-NO-ID Welch Labs                             feeds=0 sitemap=n
+[ 88/105] OK  bycloud                                feeds=1 sitemap=n
+[ 89/105] OK  Fireship                               feeds=1 sitemap=n
+[ 90/105] OK  Corridor Crew                          feeds=1 sitemap=n
+[ 91/105] OK  In Depth Cine                          feeds=1 sitemap=n
+[ 92/105] OK  wolfcrow                               feeds=1 sitemap=n
+[ 93/105] OK  StudioBinder                           feeds=1 sitemap=n
+[ 94/105] OK  Film Riot                              feeds=1 sitemap=n
+[ 95/105] OK  No Film School                         feeds=1 sitemap=n
+[ 96/105] YT-NO-ID Aputure                                feeds=0 sitemap=n
+[ 97/105] YT-NO-ID Blackmagic Design                      feeds=0 sitemap=n
+[ 98/105] OK  Theoretically Media                    feeds=1 sitemap=n
+[ 99/105] OK  Olivio Sarikas                         feeds=1 sitemap=n
+[100/105] OK  Sebastian Kamph                        feeds=1 sitemap=n
+[101/105] OK  Matt Wolfe                             feeds=1 sitemap=n
+[102/105] OK  AI Explained                           feeds=1 sitemap=n
+[103/105] OK  Dwarkesh Patel                         feeds=1 sitemap=n
+[104/105] YT-NO-ID Team Deakins                           feeds=0 sitemap=n
+[105/105] OK  Every Frame a Painting                 feeds=1 sitemap=n
+
+wrote /Users/adamoscieghi/Desktop/NEWS/data/_discovery_main.json — 80/105 with a working feed

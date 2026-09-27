@@ -1,0 +1,998 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-12",
+  "macro": [
+    {
+      "id": "cinema",
+      "label": {
+        "it": "Cinema",
+        "en": "Cinema"
+      },
+      "tagline": {
+        "it": "Industria, film, festival, VFX e linguaggio visivo",
+        "en": "Industry, film, festivals, VFX and visual language"
+      },
+      "accent": "amber",
+      "subcategories": [
+        {
+          "id": "film",
+          "label": {
+            "it": "Film",
+            "en": "Film"
+          }
+        },
+        {
+          "id": "industry",
+          "label": {
+            "it": "Industria",
+            "en": "Industry"
+          }
+        },
+        {
+          "id": "casting",
+          "label": {
+            "it": "Casting",
+            "en": "Casting"
+          }
+        },
+        {
+          "id": "production",
+          "label": {
+            "it": "Produzione",
+            "en": "Production"
+          }
+        },
+        {
+          "id": "festival",
+          "label": {
+            "it": "Festival",
+            "en": "Festivals"
+          }
+        },
+        {
+          "id": "awards",
+          "label": {
+            "it": "Premi",
+            "en": "Awards"
+          }
+        },
+        {
+          "id": "streaming",
+          "label": {
+            "it": "Streaming",
+            "en": "Streaming"
+          }
+        },
+        {
+          "id": "box_office",
+          "label": {
+            "it": "Box office",
+            "en": "Box office"
+          }
+        },
+        {
+          "id": "reviews",
+          "label": {
+            "it": "Recensioni",
+            "en": "Reviews"
+          }
+        },
+        {
+          "id": "vfx",
+          "label": {
+            "it": "VFX",
+            "en": "VFX"
+          }
+        },
+        {
+          "id": "virtual_production",
+          "label": {
+            "it": "Virtual production",
+            "en": "Virtual production"
+          }
+        },
+        {
+          "id": "cinematography",
+          "label": {
+            "it": "Fotografia",
+            "en": "Cinematography"
+          }
+        },
+        {
+          "id": "post_production",
+          "label": {
+            "it": "Post-produzione",
+            "en": "Post-production"
+          }
+        },
+        {
+          "id": "cinema_ai",
+          "label": {
+            "it": "Cinema e AI",
+            "en": "Cinema and AI"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "label": {
+        "it": "AI",
+        "en": "AI"
+      },
+      "tagline": {
+        "it": "LLM, ricerca, agenti, modelli e infrastruttura",
+        "en": "LLMs, research, agents, models and infrastructure"
+      },
+      "accent": "violet",
+      "subcategories": [
+        {
+          "id": "llm",
+          "label": {
+            "it": "LLM",
+            "en": "LLM"
+          }
+        },
+        {
+          "id": "reasoning",
+          "label": {
+            "it": "Reasoning",
+            "en": "Reasoning"
+          }
+        },
+        {
+          "id": "agents",
+          "label": {
+            "it": "Agenti",
+            "en": "Agents"
+          }
+        },
+        {
+          "id": "research",
+          "label": {
+            "it": "Ricerca",
+            "en": "Research"
+          }
+        },
+        {
+          "id": "open_source",
+          "label": {
+            "it": "Open source",
+            "en": "Open source"
+          }
+        },
+        {
+          "id": "models",
+          "label": {
+            "it": "Modelli",
+            "en": "Models"
+          }
+        },
+        {
+          "id": "multimodal",
+          "label": {
+            "it": "Multimodale",
+            "en": "Multimodal"
+          }
+        },
+        {
+          "id": "ai_business",
+          "label": {
+            "it": "Business",
+            "en": "Business"
+          }
+        },
+        {
+          "id": "ai_tools",
+          "label": {
+            "it": "Tool",
+            "en": "Tools"
+          }
+        },
+        {
+          "id": "ai_infrastructure",
+          "label": {
+            "it": "Infrastruttura",
+            "en": "Infrastructure"
+          }
+        },
+        {
+          "id": "robotics",
+          "label": {
+            "it": "Robotica",
+            "en": "Robotics"
+          }
+        },
+        {
+          "id": "computer_vision",
+          "label": {
+            "it": "Computer vision",
+            "en": "Computer vision"
+          }
+        },
+        {
+          "id": "nlp",
+          "label": {
+            "it": "NLP",
+            "en": "NLP"
+          }
+        }
+      ]
+    },
+    {
+      "id": "generative_media",
+      "label": {
+        "it": "Gen Media",
+        "en": "Gen Media"
+      },
+      "tagline": {
+        "it": "Immagine, video, audio e 3D generativi",
+        "en": "Generative image, video, audio and 3D"
+      },
+      "accent": "cyan",
+      "subcategories": [
+        {
+          "id": "image_generation",
+          "label": {
+            "it": "Generazione immagini",
+            "en": "Image generation"
+          }
+        },
+        {
+          "id": "image_editing",
+          "label": {
+            "it": "Editing immagini",
+            "en": "Image editing"
+          }
+        },
+        {
+          "id": "video_generation",
+          "label": {
+            "it": "Generazione video",
+            "en": "Video generation"
+          }
+        },
+        {
+          "id": "image_to_video",
+          "label": {
+            "it": "Image to video",
+            "en": "Image to video"
+          }
+        },
+        {
+          "id": "text_to_video",
+          "label": {
+            "it": "Text to video",
+            "en": "Text to video"
+          }
+        },
+        {
+          "id": "audio_generation",
+          "label": {
+            "it": "Audio",
+            "en": "Audio generation"
+          }
+        },
+        {
+          "id": "voice_generation",
+          "label": {
+            "it": "Voce",
+            "en": "Voice generation"
+          }
+        },
+        {
+          "id": "3d_generation",
+          "label": {
+            "it": "3D",
+            "en": "3D generation"
+          }
+        },
+        {
+          "id": "vfx_ai",
+          "label": {
+            "it": "VFX e AI",
+            "en": "AI VFX"
+          }
+        },
+        {
+          "id": "creative_ai",
+          "label": {
+            "it": "Creative AI",
+            "en": "Creative AI"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tutorials",
+      "label": {
+        "it": "Tutorial",
+        "en": "Tutorials"
+      },
+      "tagline": {
+        "it": "Workflow pratici, guide e tecniche verificate",
+        "en": "Practical workflows, guides and proven techniques"
+      },
+      "accent": "emerald",
+      "subcategories": [
+        {
+          "id": "prompting",
+          "label": {
+            "it": "Prompting",
+            "en": "Prompting"
+          }
+        },
+        {
+          "id": "llm",
+          "label": {
+            "it": "LLM",
+            "en": "LLM"
+          }
+        },
+        {
+          "id": "agents",
+          "label": {
+            "it": "Agenti",
+            "en": "Agents"
+          }
+        },
+        {
+          "id": "rag",
+          "label": {
+            "it": "RAG",
+            "en": "RAG"
+          }
+        },
+        {
+          "id": "fine_tuning",
+          "label": {
+            "it": "Fine-tuning",
+            "en": "Fine-tuning"
+          }
+        },
+        {
+          "id": "comfyui",
+          "label": {
+            "it": "ComfyUI",
+            "en": "ComfyUI"
+          }
+        },
+        {
+          "id": "midjourney",
+          "label": {
+            "it": "Midjourney",
+            "en": "Midjourney"
+          }
+        },
+        {
+          "id": "firefly",
+          "label": {
+            "it": "Firefly",
+            "en": "Firefly"
+          }
+        },
+        {
+          "id": "runway",
+          "label": {
+            "it": "Runway",
+            "en": "Runway"
+          }
+        },
+        {
+          "id": "veo",
+          "label": {
+            "it": "Veo",
+            "en": "Veo"
+          }
+        },
+        {
+          "id": "luma",
+          "label": {
+            "it": "Luma",
+            "en": "Luma"
+          }
+        },
+        {
+          "id": "video_workflow",
+          "label": {
+            "it": "Workflow video",
+            "en": "Video workflow"
+          }
+        },
+        {
+          "id": "image_workflow",
+          "label": {
+            "it": "Workflow immagini",
+            "en": "Image workflow"
+          }
+        },
+        {
+          "id": "ai_filmmaking",
+          "label": {
+            "it": "AI filmmaking",
+            "en": "AI filmmaking"
+          }
+        },
+        {
+          "id": "ai_advertising",
+          "label": {
+            "it": "AI advertising",
+            "en": "AI advertising"
+          }
+        },
+        {
+          "id": "vfx_workflow",
+          "label": {
+            "it": "Workflow VFX",
+            "en": "VFX workflow"
+          }
+        },
+        {
+          "id": "editing",
+          "label": {
+            "it": "Montaggio",
+            "en": "Editing"
+          }
+        },
+        {
+          "id": "shooting",
+          "label": {
+            "it": "Ripresa",
+            "en": "Shooting"
+          }
+        },
+        {
+          "id": "color",
+          "label": {
+            "it": "Color",
+            "en": "Color"
+          }
+        }
+      ]
+    },
+    {
+      "id": "craft",
+      "label": {
+        "it": "Mestiere",
+        "en": "Craft"
+      },
+      "tagline": {
+        "it": "Montaggio, ripresa e fotografia: tecniche, workflow e curiosità dal set",
+        "en": "Editing, shooting and cinematography: techniques, workflows and stories from set"
+      },
+      "accent": "gold",
+      "virtual": true,
+      "note": "Aggregates the hand-written columns with the craft material already classified under cinema and tutorials, so technique has one address instead of being scattered.",
+      "subcategories": [
+        {
+          "id": "editing",
+          "label": {
+            "it": "Montaggio",
+            "en": "Editing"
+          }
+        },
+        {
+          "id": "shooting",
+          "label": {
+            "it": "Ripresa",
+            "en": "Shooting"
+          }
+        },
+        {
+          "id": "curiosity",
+          "label": {
+            "it": "Curiosità",
+            "en": "Curiosities"
+          }
+        },
+        {
+          "id": "cinematography",
+          "label": {
+            "it": "Fotografia",
+            "en": "Cinematography"
+          }
+        },
+        {
+          "id": "post_production",
+          "label": {
+            "it": "Post-produzione",
+            "en": "Post-production"
+          }
+        },
+        {
+          "id": "color",
+          "label": {
+            "it": "Color",
+            "en": "Colour"
+          }
+        },
+        {
+          "id": "vfx",
+          "label": {
+            "it": "VFX",
+            "en": "VFX"
+          }
+        },
+        {
+          "id": "virtual_production",
+          "label": {
+            "it": "Virtual production",
+            "en": "Virtual production"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tech_curiosities",
+      "label": {
+        "it": "Tech",
+        "en": "Tech"
+      },
+      "tagline": {
+        "it": "Come funziona davvero: hardware, algoritmi, infrastruttura",
+        "en": "How it actually works: hardware, algorithms, infrastructure"
+      },
+      "accent": "rose",
+      "subcategories": [
+        {
+          "id": "hardware",
+          "label": {
+            "it": "Hardware",
+            "en": "Hardware"
+          }
+        },
+        {
+          "id": "gpu",
+          "label": {
+            "it": "GPU",
+            "en": "GPU"
+          }
+        },
+        {
+          "id": "ai_infrastructure",
+          "label": {
+            "it": "Infrastruttura AI",
+            "en": "AI infrastructure"
+          }
+        },
+        {
+          "id": "robotics",
+          "label": {
+            "it": "Robotica",
+            "en": "Robotics"
+          }
+        },
+        {
+          "id": "future_tech",
+          "label": {
+            "it": "Future tech",
+            "en": "Future tech"
+          }
+        },
+        {
+          "id": "science",
+          "label": {
+            "it": "Scienza",
+            "en": "Science"
+          }
+        },
+        {
+          "id": "software",
+          "label": {
+            "it": "Software",
+            "en": "Software"
+          }
+        },
+        {
+          "id": "internet",
+          "label": {
+            "it": "Internet",
+            "en": "Internet"
+          }
+        },
+        {
+          "id": "cybersecurity",
+          "label": {
+            "it": "Cybersecurity",
+            "en": "Cybersecurity"
+          }
+        },
+        {
+          "id": "programming",
+          "label": {
+            "it": "Programmazione",
+            "en": "Programming"
+          }
+        },
+        {
+          "id": "algorithms",
+          "label": {
+            "it": "Algoritmi",
+            "en": "Algorithms"
+          }
+        },
+        {
+          "id": "computer_science",
+          "label": {
+            "it": "Computer science",
+            "en": "Computer science"
+          }
+        }
+      ]
+    },
+    {
+      "id": "creators",
+      "label": {
+        "it": "Creator",
+        "en": "Creators"
+      },
+      "tagline": {
+        "it": "Voci tecniche selezionate: video, podcast, analisi",
+        "en": "Selected technical voices: video, podcasts, analysis"
+      },
+      "accent": "orange",
+      "subcategories": [
+        {
+          "id": "ai_creators",
+          "label": {
+            "it": "AI creator",
+            "en": "AI creators"
+          }
+        },
+        {
+          "id": "tech_creators",
+          "label": {
+            "it": "Tech creator",
+            "en": "Tech creators"
+          }
+        },
+        {
+          "id": "programming",
+          "label": {
+            "it": "Programmazione",
+            "en": "Programming"
+          }
+        },
+        {
+          "id": "researchers",
+          "label": {
+            "it": "Ricercatori",
+            "en": "Researchers"
+          }
+        },
+        {
+          "id": "filmmakers",
+          "label": {
+            "it": "Filmmaker",
+            "en": "Filmmakers"
+          }
+        },
+        {
+          "id": "vfx_artists",
+          "label": {
+            "it": "VFX artist",
+            "en": "VFX artists"
+          }
+        },
+        {
+          "id": "designers",
+          "label": {
+            "it": "Designer",
+            "en": "Designers"
+          }
+        },
+        {
+          "id": "educators",
+          "label": {
+            "it": "Divulgatori",
+            "en": "Educators"
+          }
+        },
+        {
+          "id": "podcasts",
+          "label": {
+            "it": "Podcast",
+            "en": "Podcasts"
+          }
+        },
+        {
+          "id": "youtube",
+          "label": {
+            "it": "YouTube",
+            "en": "YouTube"
+          }
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "label": {
+        "it": "Modelli",
+        "en": "Models"
+      },
+      "tagline": {
+        "it": "Release, benchmark, prezzi e confronti",
+        "en": "Releases, benchmarks, pricing and comparisons"
+      },
+      "accent": "slate",
+      "subcategories": [
+        {
+          "id": "llm",
+          "label": {
+            "it": "LLM",
+            "en": "LLM"
+          }
+        },
+        {
+          "id": "image",
+          "label": {
+            "it": "Immagine",
+            "en": "Image"
+          }
+        },
+        {
+          "id": "video",
+          "label": {
+            "it": "Video",
+            "en": "Video"
+          }
+        },
+        {
+          "id": "audio",
+          "label": {
+            "it": "Audio",
+            "en": "Audio"
+          }
+        },
+        {
+          "id": "multimodal",
+          "label": {
+            "it": "Multimodale",
+            "en": "Multimodal"
+          }
+        },
+        {
+          "id": "embedding",
+          "label": {
+            "it": "Embedding",
+            "en": "Embedding"
+          }
+        },
+        {
+          "id": "vision",
+          "label": {
+            "it": "Vision",
+            "en": "Vision"
+          }
+        },
+        {
+          "id": "speech",
+          "label": {
+            "it": "Speech",
+            "en": "Speech"
+          }
+        },
+        {
+          "id": "3d",
+          "label": {
+            "it": "3D",
+            "en": "3D"
+          }
+        }
+      ]
+    }
+  ],
+  "content_types": [
+    {
+      "id": "breaking_news",
+      "label": {
+        "it": "Breaking",
+        "en": "Breaking"
+      }
+    },
+    {
+      "id": "news",
+      "label": {
+        "it": "Notizia",
+        "en": "News"
+      }
+    },
+    {
+      "id": "analysis",
+      "label": {
+        "it": "Approfondimento",
+        "en": "Analysis"
+      }
+    },
+    {
+      "id": "official_release",
+      "label": {
+        "it": "Release ufficiale",
+        "en": "Official release"
+      }
+    },
+    {
+      "id": "research",
+      "label": {
+        "it": "Ricerca",
+        "en": "Research"
+      }
+    },
+    {
+      "id": "tutorial",
+      "label": {
+        "it": "Tutorial",
+        "en": "Tutorial"
+      }
+    },
+    {
+      "id": "workflow",
+      "label": {
+        "it": "Workflow",
+        "en": "Workflow"
+      }
+    },
+    {
+      "id": "benchmark",
+      "label": {
+        "it": "Benchmark",
+        "en": "Benchmark"
+      }
+    },
+    {
+      "id": "curiosity",
+      "label": {
+        "it": "Curiosità",
+        "en": "Curiosity"
+      }
+    },
+    {
+      "id": "review",
+      "label": {
+        "it": "Recensione",
+        "en": "Review"
+      }
+    },
+    {
+      "id": "interview",
+      "label": {
+        "it": "Intervista",
+        "en": "Interview"
+      }
+    },
+    {
+      "id": "video",
+      "label": {
+        "it": "Video",
+        "en": "Video"
+      }
+    },
+    {
+      "id": "podcast",
+      "label": {
+        "it": "Podcast",
+        "en": "Podcast"
+      }
+    },
+    {
+      "id": "documentation",
+      "label": {
+        "it": "Documentazione",
+        "en": "Documentation"
+      }
+    }
+  ],
+  "source_types": [
+    {
+      "id": "primary",
+      "label": {
+        "it": "Fonte primaria",
+        "en": "Primary source"
+      },
+      "weight": 1.0
+    },
+    {
+      "id": "official_documentation",
+      "label": {
+        "it": "Documentazione ufficiale",
+        "en": "Official documentation"
+      },
+      "weight": 0.95
+    },
+    {
+      "id": "research",
+      "label": {
+        "it": "Ricerca",
+        "en": "Research"
+      },
+      "weight": 0.95
+    },
+    {
+      "id": "benchmark",
+      "label": {
+        "it": "Benchmark",
+        "en": "Benchmark"
+      },
+      "weight": 0.9
+    },
+    {
+      "id": "technical",
+      "label": {
+        "it": "Tecnica",
+        "en": "Technical"
+      },
+      "weight": 0.85
+    },
+    {
+      "id": "editorial",
+      "label": {
+        "it": "Editoriale",
+        "en": "Editorial"
+      },
+      "weight": 0.7
+    },
+    {
+      "id": "tutorial",
+      "label": {
+        "it": "Tutorial",
+        "en": "Tutorial"
+      },
+      "weight": 0.75
+    },
+    {
+      "id": "creator",
+      "label": {
+        "it": "Creator",
+        "en": "Creator"
+      },
+      "weight": 0.65
+    },
+    {
+      "id": "podcast",
+      "label": {
+        "it": "Podcast",
+        "en": "Podcast"
+      },
+      "weight": 0.6
+    },
+    {
+      "id": "database",
+      "label": {
+        "it": "Database",
+        "en": "Database"
+      },
+      "weight": 0.7
+    },
+    {
+      "id": "community",
+      "label": {
+        "it": "Community",
+        "en": "Community"
+      },
+      "weight": 0.4
+    }
+  ],
+  "difficulty": [
+    {
+      "id": "beginner",
+      "label": {
+        "it": "Base",
+        "en": "Beginner"
+      }
+    },
+    {
+      "id": "intermediate",
+      "label": {
+        "it": "Intermedio",
+        "en": "Intermediate"
+      }
+    },
+    {
+      "id": "advanced",
+      "label": {
+        "it": "Avanzato",
+        "en": "Advanced"
+      }
+    }
+  ]
+}

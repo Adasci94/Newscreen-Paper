@@ -1,0 +1,1302 @@
+{
+  "note": "Editorial judgement, kept separate from the technical facts discovered by discover.py. build_sources.py merges the two into data/sources.json. Scores are 0-100. reliability = how often the source is right; technical_depth = how far below the surface it goes; editorial_quality = how well it is written and edited; creator_score only applies to creators.",
+  "defaults": {
+    "reliability": 65,
+    "technical_depth": 50,
+    "editorial_quality": 65,
+    "creator_score": 0,
+    "source_type": "editorial",
+    "category": "ai",
+    "language": "en",
+    "primary_source": false
+  },
+  "sources": {
+    "variety": {
+      "category": "cinema",
+      "subcategory": "industry",
+      "source_type": "editorial",
+      "reliability": 88,
+      "technical_depth": 40,
+      "editorial_quality": 88,
+      "update_frequency": "hourly",
+      "topics": [
+        "industry",
+        "box office",
+        "awards",
+        "streaming"
+      ],
+      "desc_it": "Testata storica dell'industria dell'intrattenimento. Autorevole su produzione, accordi e box office; poco tecnica sul mestiere.",
+      "desc_en": "The long-standing trade paper of the entertainment industry. Authoritative on production, deals and box office; light on craft."
+    },
+    "variety-film": {
+      "category": "cinema",
+      "subcategory": "film",
+      "source_type": "editorial",
+      "reliability": 88,
+      "technical_depth": 40,
+      "editorial_quality": 88,
+      "update_frequency": "daily",
+      "topics": [
+        "film",
+        "reviews",
+        "festival"
+      ],
+      "desc_it": "Sezione cinema di Variety.",
+      "desc_en": "Variety's film desk."
+    },
+    "thr": {
+      "category": "cinema",
+      "subcategory": "industry",
+      "source_type": "editorial",
+      "reliability": 87,
+      "technical_depth": 40,
+      "editorial_quality": 87,
+      "update_frequency": "hourly",
+      "topics": [
+        "industry",
+        "awards",
+        "business"
+      ],
+      "desc_it": "Quotidiano dell'industria di Hollywood, forte su premi e dinamiche degli studi.",
+      "desc_en": "Hollywood trade daily, strong on awards and studio politics."
+    },
+    "thr-movies": {
+      "category": "cinema",
+      "subcategory": "film",
+      "source_type": "editorial",
+      "reliability": 87,
+      "technical_depth": 40,
+      "editorial_quality": 86,
+      "update_frequency": "daily",
+      "topics": [
+        "film",
+        "reviews"
+      ],
+      "desc_it": "Sezione film di The Hollywood Reporter.",
+      "desc_en": "The Hollywood Reporter's movies desk."
+    },
+    "deadline": {
+      "category": "cinema",
+      "subcategory": "industry",
+      "source_type": "editorial",
+      "reliability": 85,
+      "technical_depth": 35,
+      "editorial_quality": 82,
+      "update_frequency": "hourly",
+      "topics": [
+        "breaking",
+        "deals",
+        "casting"
+      ],
+      "desc_it": "Il più rapido sulle notizie di contratti e casting. Velocità alta, approfondimento basso.",
+      "desc_en": "The fastest on deal and casting news. High speed, low depth."
+    },
+    "deadline-film": {
+      "category": "cinema",
+      "subcategory": "film",
+      "source_type": "editorial",
+      "reliability": 85,
+      "technical_depth": 35,
+      "editorial_quality": 82,
+      "update_frequency": "daily",
+      "topics": [
+        "film",
+        "box office"
+      ],
+      "desc_it": "Sezione film di Deadline.",
+      "desc_en": "Deadline's film desk."
+    },
+    "indiewire": {
+      "category": "cinema",
+      "subcategory": "reviews",
+      "source_type": "editorial",
+      "reliability": 82,
+      "technical_depth": 50,
+      "editorial_quality": 85,
+      "update_frequency": "daily",
+      "topics": [
+        "independent",
+        "reviews",
+        "craft",
+        "festival"
+      ],
+      "desc_it": "Cinema indipendente e d'autore, con una rubrica di mestiere insolitamente solida per una testata generalista.",
+      "desc_en": "Independent and auteur cinema, with a craft desk unusually solid for a general outlet."
+    },
+    "screendaily": {
+      "category": "cinema",
+      "subcategory": "industry",
+      "source_type": "editorial",
+      "reliability": 88,
+      "technical_depth": 45,
+      "editorial_quality": 85,
+      "update_frequency": "daily",
+      "topics": [
+        "international",
+        "festival",
+        "distribution"
+      ],
+      "desc_it": "Prospettiva internazionale sulla distribuzione e sui mercati, più europea delle testate americane.",
+      "desc_en": "International perspective on distribution and markets, more European than the US trades."
+    },
+    "cineuropa": {
+      "category": "cinema",
+      "subcategory": "industry",
+      "source_type": "editorial",
+      "reliability": 86,
+      "technical_depth": 40,
+      "editorial_quality": 82,
+      "update_frequency": "daily",
+      "language": "en",
+      "topics": [
+        "european cinema",
+        "funding",
+        "festival"
+      ],
+      "desc_it": "Osservatorio sul cinema europeo: finanziamenti, coproduzioni, festival del continente.",
+      "desc_en": "European cinema watch: funding, co-productions, continental festivals."
+    },
+    "cinefacts": {
+      "category": "cinema",
+      "subcategory": "reviews",
+      "source_type": "editorial",
+      "reliability": 72,
+      "technical_depth": 45,
+      "editorial_quality": 75,
+      "update_frequency": "daily",
+      "language": "it",
+      "topics": [
+        "recensioni",
+        "analisi",
+        "cinema"
+      ],
+      "desc_it": "Testata italiana con recensioni e analisi più lunghe della media nazionale.",
+      "desc_en": "Italian outlet with reviews and analysis longer than the national average."
+    },
+    "movieplayer": {
+      "category": "cinema",
+      "subcategory": "film",
+      "source_type": "editorial",
+      "reliability": 70,
+      "technical_depth": 30,
+      "editorial_quality": 68,
+      "update_frequency": "hourly",
+      "language": "it",
+      "topics": [
+        "notizie",
+        "recensioni",
+        "streaming"
+      ],
+      "desc_it": "Generalista italiano ad alta frequenza. Utile per la copertura in italiano, da pesare meno sulle notizie tecniche.",
+      "desc_en": "High-frequency Italian generalist. Useful for Italian-language coverage, weighted down on technical news."
+    },
+    "criterion": {
+      "category": "cinema",
+      "subcategory": "reviews",
+      "source_type": "editorial",
+      "reliability": 92,
+      "technical_depth": 55,
+      "editorial_quality": 96,
+      "update_frequency": "weekly",
+      "topics": [
+        "film history",
+        "essays",
+        "restoration"
+      ],
+      "desc_it": "Saggi di critica e storia del cinema legati alle edizioni Criterion. Qualità di scrittura fra le più alte in circolazione.",
+      "desc_en": "Criticism and film-history essays tied to the Criterion editions. Among the best-written film writing anywhere."
+    },
+    "thefilmstage": {
+      "category": "cinema",
+      "subcategory": "reviews",
+      "source_type": "editorial",
+      "reliability": 78,
+      "technical_depth": 45,
+      "editorial_quality": 80,
+      "update_frequency": "daily",
+      "topics": [
+        "reviews",
+        "festival",
+        "interviews"
+      ],
+      "desc_it": "Recensioni e coperture dei festival, con interviste a registi e direttori della fotografia.",
+      "desc_en": "Reviews and festival coverage, with interviews with directors and cinematographers."
+    },
+    "vfxvoice": {
+      "category": "cinema",
+      "subcategory": "vfx",
+      "source_type": "technical",
+      "reliability": 88,
+      "technical_depth": 85,
+      "editorial_quality": 85,
+      "update_frequency": "weekly",
+      "specialization_bonus": true,
+      "topics": [
+        "vfx",
+        "animation",
+        "virtual production"
+      ],
+      "desc_it": "Rivista della Visual Effects Society: interviste tecniche a supervisori e case di produzione.",
+      "desc_en": "The Visual Effects Society magazine: technical interviews with supervisors and facilities."
+    },
+    "fxguide": {
+      "category": "cinema",
+      "subcategory": "vfx",
+      "source_type": "technical",
+      "reliability": 92,
+      "technical_depth": 95,
+      "editorial_quality": 88,
+      "update_frequency": "weekly",
+      "specialization_bonus": true,
+      "topics": [
+        "vfx",
+        "rendering",
+        "pipeline",
+        "research"
+      ],
+      "desc_it": "Il riferimento tecnico sui VFX: spiega le pipeline e la matematica dietro gli effetti, non solo i risultati.",
+      "desc_en": "The technical reference on VFX: it explains the pipelines and the maths behind the shots, not just the results."
+    },
+    "ascmag": {
+      "category": "cinema",
+      "subcategory": "cinematography",
+      "source_type": "technical",
+      "reliability": 94,
+      "technical_depth": 95,
+      "editorial_quality": 90,
+      "update_frequency": "weekly",
+      "specialization_bonus": true,
+      "topics": [
+        "cinematography",
+        "lighting",
+        "lenses",
+        "camera"
+      ],
+      "desc_it": "American Cinematographer, organo della ASC: il riferimento sul lavoro del direttore della fotografia.",
+      "desc_en": "American Cinematographer, the ASC's own magazine: the reference on the cinematographer's craft."
+    },
+    "nofilmschool": {
+      "category": "cinema",
+      "subcategory": "production",
+      "source_type": "tutorial",
+      "reliability": 78,
+      "technical_depth": 70,
+      "editorial_quality": 78,
+      "update_frequency": "daily",
+      "topics": [
+        "filmmaking",
+        "gear",
+        "workflow",
+        "editing"
+      ],
+      "desc_it": "Guide pratiche su ripresa, montaggio e attrezzatura per produzioni indipendenti.",
+      "desc_en": "Practical guides on shooting, editing and gear for independent productions."
+    },
+    "beforesandafters": {
+      "category": "cinema",
+      "subcategory": "vfx",
+      "source_type": "technical",
+      "reliability": 88,
+      "technical_depth": 90,
+      "editorial_quality": 85,
+      "update_frequency": "weekly",
+      "specialization_bonus": true,
+      "topics": [
+        "vfx",
+        "breakdown",
+        "animation"
+      ],
+      "desc_it": "Breakdown dettagliati di sequenze VFX raccontati da chi le ha realizzate.",
+      "desc_en": "Detailed VFX shot breakdowns told by the people who made them."
+    },
+    "provideocoalition": {
+      "category": "cinema",
+      "subcategory": "post_production",
+      "source_type": "technical",
+      "reliability": 84,
+      "technical_depth": 88,
+      "editorial_quality": 80,
+      "update_frequency": "daily",
+      "specialization_bonus": true,
+      "topics": [
+        "post production",
+        "editing",
+        "color",
+        "audio"
+      ],
+      "desc_it": "Post-produzione dal punto di vista di chi la fa: montaggio, color, audio, workflow.",
+      "desc_en": "Post-production from the perspective of practitioners: editing, colour, audio, workflow."
+    },
+    "postperspective": {
+      "category": "cinema",
+      "subcategory": "post_production",
+      "source_type": "technical",
+      "reliability": 84,
+      "technical_depth": 85,
+      "editorial_quality": 80,
+      "update_frequency": "daily",
+      "specialization_bonus": true,
+      "topics": [
+        "post production",
+        "color grading",
+        "vfx",
+        "audio"
+      ],
+      "desc_it": "Case study di post-produzione con interviste a coloristi e montatori.",
+      "desc_en": "Post-production case studies with interviews with colourists and editors."
+    },
+    "filmmakermagazine": {
+      "category": "cinema",
+      "subcategory": "production",
+      "source_type": "editorial",
+      "reliability": 85,
+      "technical_depth": 65,
+      "editorial_quality": 88,
+      "update_frequency": "daily",
+      "topics": [
+        "independent film",
+        "craft",
+        "interviews"
+      ],
+      "desc_it": "Cinema indipendente con attenzione al processo produttivo e alle scelte di regia.",
+      "desc_en": "Independent film with attention to process and directorial choices."
+    },
+    "littlewhitelies": {
+      "category": "cinema",
+      "subcategory": "reviews",
+      "source_type": "editorial",
+      "reliability": 80,
+      "technical_depth": 40,
+      "editorial_quality": 88,
+      "update_frequency": "daily",
+      "topics": [
+        "reviews",
+        "essays",
+        "design"
+      ],
+      "desc_it": "Critica cinematografica con forte identità visiva e saggi più lunghi della media.",
+      "desc_en": "Film criticism with a strong visual identity and longer-than-average essays."
+    },
+    "bfi": {
+      "category": "cinema",
+      "subcategory": "reviews",
+      "source_type": "editorial",
+      "reliability": 90,
+      "technical_depth": 50,
+      "editorial_quality": 92,
+      "update_frequency": "weekly",
+      "topics": [
+        "film history",
+        "archive",
+        "criticism"
+      ],
+      "desc_it": "British Film Institute: critica, storia del cinema e restauro d'archivio.",
+      "desc_en": "British Film Institute: criticism, film history and archive restoration."
+    },
+    "cartoonbrew": {
+      "category": "cinema",
+      "subcategory": "production",
+      "source_type": "editorial",
+      "reliability": 82,
+      "technical_depth": 60,
+      "editorial_quality": 80,
+      "update_frequency": "daily",
+      "topics": [
+        "animation",
+        "industry"
+      ],
+      "desc_it": "Animazione: industria, tecnica e autori.",
+      "desc_en": "Animation: industry, craft and authors."
+    },
+    "cannes": {
+      "category": "cinema",
+      "subcategory": "festival",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 97,
+      "technical_depth": 30,
+      "editorial_quality": 80,
+      "update_frequency": "rare",
+      "topics": [
+        "festival",
+        "selection",
+        "awards"
+      ],
+      "desc_it": "Comunicati ufficiali del Festival di Cannes: selezioni, giurie, premi.",
+      "desc_en": "Official Festival de Cannes announcements: selections, juries, awards."
+    },
+    "sundance": {
+      "category": "cinema",
+      "subcategory": "festival",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 97,
+      "technical_depth": 30,
+      "editorial_quality": 80,
+      "update_frequency": "weekly",
+      "topics": [
+        "festival",
+        "independent",
+        "labs"
+      ],
+      "desc_it": "Sundance Institute: selezioni, programmi e iniziative per autori indipendenti.",
+      "desc_en": "Sundance Institute: selections, programmes and initiatives for independent authors."
+    },
+    "oscars": {
+      "category": "cinema",
+      "subcategory": "awards",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 98,
+      "technical_depth": 30,
+      "editorial_quality": 78,
+      "update_frequency": "rare",
+      "topics": [
+        "awards",
+        "academy",
+        "nominations"
+      ],
+      "desc_it": "Academy of Motion Picture Arts and Sciences: nomination, regolamenti, premi.",
+      "desc_en": "Academy of Motion Picture Arts and Sciences: nominations, rules, awards."
+    },
+    "berlinale": {
+      "category": "cinema",
+      "subcategory": "festival",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 96,
+      "technical_depth": 30,
+      "editorial_quality": 78,
+      "update_frequency": "rare",
+      "topics": [
+        "festival",
+        "selection"
+      ],
+      "desc_it": "Comunicati ufficiali della Berlinale.",
+      "desc_en": "Official Berlinale announcements."
+    },
+    "labiennale": {
+      "category": "cinema",
+      "subcategory": "festival",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 96,
+      "technical_depth": 30,
+      "editorial_quality": 78,
+      "update_frequency": "weekly",
+      "topics": [
+        "festival",
+        "venezia",
+        "selection"
+      ],
+      "desc_it": "La Biennale di Venezia: comunicati ufficiali della Mostra del Cinema.",
+      "desc_en": "La Biennale di Venezia: official announcements from the Venice Film Festival."
+    },
+    "openai": {
+      "category": "ai",
+      "subcategory": "models",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 97,
+      "technical_depth": 88,
+      "editorial_quality": 85,
+      "update_frequency": "weekly",
+      "topics": [
+        "llm",
+        "models",
+        "research",
+        "product"
+      ],
+      "desc_it": "Annunci ufficiali OpenAI: release di modelli, ricerca e prodotto. Fonte primaria su tutto ciò che riguarda GPT e Sora.",
+      "desc_en": "Official OpenAI announcements: model releases, research and product. Primary source on everything GPT and Sora."
+    },
+    "anthropic": {
+      "category": "ai",
+      "subcategory": "models",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 97,
+      "technical_depth": 90,
+      "editorial_quality": 88,
+      "update_frequency": "weekly",
+      "topics": [
+        "llm",
+        "safety",
+        "agents",
+        "research"
+      ],
+      "desc_it": "Annunci e ricerca ufficiali Anthropic, inclusi i lavori su interpretabilità e sicurezza.",
+      "desc_en": "Official Anthropic announcements and research, including interpretability and safety work."
+    },
+    "deepmind": {
+      "category": "ai",
+      "subcategory": "research",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 97,
+      "technical_depth": 93,
+      "editorial_quality": 88,
+      "update_frequency": "weekly",
+      "topics": [
+        "research",
+        "gemini",
+        "veo",
+        "science"
+      ],
+      "desc_it": "Google DeepMind: ricerca e release, da Gemini a Veo fino alle applicazioni scientifiche.",
+      "desc_en": "Google DeepMind: research and releases, from Gemini to Veo to scientific applications."
+    },
+    "metaai": {
+      "category": "ai",
+      "subcategory": "open_source",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 95,
+      "technical_depth": 90,
+      "editorial_quality": 82,
+      "update_frequency": "weekly",
+      "topics": [
+        "llama",
+        "open weights",
+        "research",
+        "computer vision"
+      ],
+      "desc_it": "Meta AI: modelli a pesi aperti e ricerca, incluse le librerie di computer vision.",
+      "desc_en": "Meta AI: open-weights models and research, including the computer vision libraries."
+    },
+    "xai": {
+      "category": "ai",
+      "subcategory": "models",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 90,
+      "technical_depth": 80,
+      "editorial_quality": 72,
+      "update_frequency": "monthly",
+      "topics": [
+        "grok",
+        "models"
+      ],
+      "desc_it": "Annunci ufficiali xAI.",
+      "desc_en": "Official xAI announcements."
+    },
+    "mistral": {
+      "category": "ai",
+      "subcategory": "open_source",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 94,
+      "technical_depth": 88,
+      "editorial_quality": 80,
+      "update_frequency": "weekly",
+      "topics": [
+        "open weights",
+        "european",
+        "llm"
+      ],
+      "desc_it": "Mistral AI: release di modelli, diversi dei quali a pesi aperti.",
+      "desc_en": "Mistral AI: model releases, several of them open-weights."
+    },
+    "nvidia-genai": {
+      "category": "ai",
+      "subcategory": "ai_infrastructure",
+      "source_type": "technical",
+      "reliability": 93,
+      "technical_depth": 92,
+      "editorial_quality": 78,
+      "update_frequency": "daily",
+      "specialization_bonus": true,
+      "topics": [
+        "gpu",
+        "inference",
+        "optimization",
+        "generative ai"
+      ],
+      "desc_it": "Blog tecnico NVIDIA sulla AI generativa: ottimizzazione, inferenza, deployment. Molto concreto, con codice.",
+      "desc_en": "NVIDIA's technical blog on generative AI: optimisation, inference, deployment. Very concrete, with code."
+    },
+    "nvidia-blog": {
+      "category": "tech_curiosities",
+      "subcategory": "gpu",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 90,
+      "technical_depth": 75,
+      "editorial_quality": 80,
+      "update_frequency": "daily",
+      "topics": [
+        "gpu",
+        "hardware",
+        "ai infrastructure"
+      ],
+      "desc_it": "Annunci NVIDIA su hardware e piattaforme. Da leggere sapendo che è comunicazione aziendale.",
+      "desc_en": "NVIDIA announcements on hardware and platforms. Read knowing it is corporate communication."
+    },
+    "googleresearch": {
+      "category": "ai",
+      "subcategory": "research",
+      "source_type": "research",
+      "reliability": 96,
+      "technical_depth": 94,
+      "editorial_quality": 85,
+      "update_frequency": "weekly",
+      "topics": [
+        "research",
+        "papers",
+        "ml"
+      ],
+      "desc_it": "Ricerca Google: pubblicazioni e risultati sperimentali con dettaglio tecnico.",
+      "desc_en": "Google Research: publications and experimental results with technical detail."
+    },
+    "googledev": {
+      "category": "ai",
+      "subcategory": "ai_tools",
+      "source_type": "official_documentation",
+      "reliability": 94,
+      "technical_depth": 82,
+      "editorial_quality": 78,
+      "update_frequency": "daily",
+      "topics": [
+        "api",
+        "gemini",
+        "sdk",
+        "developer"
+      ],
+      "desc_it": "Novità per sviluppatori su API e SDK Google, incluse Gemini e Veo.",
+      "desc_en": "Developer news on Google APIs and SDKs, including Gemini and Veo."
+    },
+    "msresearch": {
+      "category": "ai",
+      "subcategory": "research",
+      "source_type": "research",
+      "reliability": 95,
+      "technical_depth": 93,
+      "editorial_quality": 84,
+      "update_frequency": "weekly",
+      "topics": [
+        "research",
+        "papers",
+        "systems"
+      ],
+      "desc_it": "Microsoft Research: pubblicazioni e progetti di ricerca.",
+      "desc_en": "Microsoft Research: publications and research projects."
+    },
+    "huggingface": {
+      "category": "ai",
+      "subcategory": "open_source",
+      "source_type": "technical",
+      "reliability": 92,
+      "technical_depth": 92,
+      "editorial_quality": 82,
+      "update_frequency": "daily",
+      "specialization_bonus": true,
+      "topics": [
+        "open source",
+        "models",
+        "training",
+        "diffusion"
+      ],
+      "desc_it": "Il blog dell'ecosistema open source: spiegazioni tecniche accompagnate da codice eseguibile.",
+      "desc_en": "The open-source ecosystem's blog: technical explainers backed by runnable code."
+    },
+    "stability": {
+      "category": "generative_media",
+      "subcategory": "image_generation",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 90,
+      "technical_depth": 82,
+      "editorial_quality": 75,
+      "update_frequency": "monthly",
+      "topics": [
+        "stable diffusion",
+        "open weights",
+        "image"
+      ],
+      "desc_it": "Stability AI: release dei modelli Stable Diffusion e correlati.",
+      "desc_en": "Stability AI: Stable Diffusion and related model releases."
+    },
+    "bfl": {
+      "category": "generative_media",
+      "subcategory": "image_generation",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 92,
+      "technical_depth": 88,
+      "editorial_quality": 75,
+      "update_frequency": "monthly",
+      "topics": [
+        "flux",
+        "open weights",
+        "image"
+      ],
+      "desc_it": "Black Forest Labs: i modelli FLUX, fra i più usati nei workflow locali con ComfyUI.",
+      "desc_en": "Black Forest Labs: the FLUX models, among the most used in local ComfyUI workflows."
+    },
+    "elevenlabs": {
+      "category": "generative_media",
+      "subcategory": "voice_generation",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 90,
+      "technical_depth": 75,
+      "editorial_quality": 78,
+      "update_frequency": "weekly",
+      "topics": [
+        "voice",
+        "tts",
+        "dubbing"
+      ],
+      "desc_it": "ElevenLabs: sintesi vocale, clonazione e doppiaggio automatico.",
+      "desc_en": "ElevenLabs: voice synthesis, cloning and automated dubbing."
+    },
+    "runway": {
+      "category": "generative_media",
+      "subcategory": "video_generation",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 92,
+      "technical_depth": 80,
+      "editorial_quality": 80,
+      "update_frequency": "monthly",
+      "topics": [
+        "video generation",
+        "vfx",
+        "filmmaking"
+      ],
+      "desc_it": "Runway: modelli video e strumenti pensati esplicitamente per la produzione audiovisiva.",
+      "desc_en": "Runway: video models and tools aimed explicitly at film production."
+    },
+    "luma": {
+      "category": "generative_media",
+      "subcategory": "video_generation",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 90,
+      "technical_depth": 78,
+      "editorial_quality": 76,
+      "update_frequency": "monthly",
+      "topics": [
+        "video generation",
+        "3d",
+        "nerf"
+      ],
+      "desc_it": "Luma AI: generazione video e ricostruzione 3D.",
+      "desc_en": "Luma AI: video generation and 3D reconstruction."
+    },
+    "midjourney-updates": {
+      "category": "generative_media",
+      "subcategory": "image_generation",
+      "source_type": "official_documentation",
+      "primary_source": true,
+      "reliability": 96,
+      "technical_depth": 70,
+      "editorial_quality": 62,
+      "update_frequency": "weekly",
+      "topics": [
+        "midjourney",
+        "image generation",
+        "releases"
+      ],
+      "desc_it": "Changelog ufficiale Midjourney: ogni modifica ai parametri e ai modelli viene annunciata qui per prima.",
+      "desc_en": "Midjourney's official changelog: every parameter and model change is announced here first."
+    },
+    "adobe-blog": {
+      "category": "generative_media",
+      "subcategory": "creative_ai",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 88,
+      "technical_depth": 60,
+      "editorial_quality": 78,
+      "update_frequency": "daily",
+      "topics": [
+        "firefly",
+        "creative cloud",
+        "premiere",
+        "after effects"
+      ],
+      "desc_it": "Annunci Adobe su Firefly e Creative Cloud. Rilevante per chi lavora con strumenti approvati dai clienti.",
+      "desc_en": "Adobe announcements on Firefly and Creative Cloud. Relevant for anyone working with client-approved tools."
+    },
+    "comfyui-blog": {
+      "category": "tutorials",
+      "subcategory": "comfyui",
+      "source_type": "official_documentation",
+      "primary_source": true,
+      "reliability": 92,
+      "technical_depth": 90,
+      "editorial_quality": 68,
+      "update_frequency": "weekly",
+      "specialization_bonus": true,
+      "topics": [
+        "comfyui",
+        "workflow",
+        "nodes",
+        "local"
+      ],
+      "desc_it": "Blog ufficiale ComfyUI: nuovi nodi, supporto ai modelli e workflow di riferimento.",
+      "desc_en": "Official ComfyUI blog: new nodes, model support and reference workflows."
+    },
+    "comfyui-releases": {
+      "category": "tutorials",
+      "subcategory": "comfyui",
+      "source_type": "official_documentation",
+      "primary_source": true,
+      "reliability": 95,
+      "technical_depth": 92,
+      "editorial_quality": 50,
+      "update_frequency": "daily",
+      "topics": [
+        "comfyui",
+        "releases",
+        "changelog"
+      ],
+      "desc_it": "Release su GitHub di ComfyUI: il segnale più rapido quando arriva il supporto a un nuovo modello.",
+      "desc_en": "ComfyUI GitHub releases: the fastest signal that a new model has gained support."
+    },
+    "techcrunch-ai": {
+      "category": "ai",
+      "subcategory": "ai_business",
+      "source_type": "editorial",
+      "reliability": 78,
+      "technical_depth": 55,
+      "editorial_quality": 78,
+      "update_frequency": "hourly",
+      "topics": [
+        "funding",
+        "startups",
+        "business"
+      ],
+      "desc_it": "Copertura rapida del business dell'AI: finanziamenti, startup, acquisizioni. Poco tecnica.",
+      "desc_en": "Fast coverage of the AI business: funding, startups, acquisitions. Not technical."
+    },
+    "arstechnica": {
+      "category": "tech_curiosities",
+      "subcategory": "software",
+      "source_type": "editorial",
+      "reliability": 90,
+      "technical_depth": 80,
+      "editorial_quality": 92,
+      "update_frequency": "hourly",
+      "topics": [
+        "technology",
+        "science",
+        "policy",
+        "explainers"
+      ],
+      "desc_it": "Fra le poche testate generaliste che entra davvero nel merito tecnico. Ottima per i pezzi \"come funziona\".",
+      "desc_en": "One of the few general outlets that genuinely goes into technical detail. Excellent for the how-it-works pieces."
+    },
+    "arstechnica-ai": {
+      "category": "ai",
+      "subcategory": "llm",
+      "source_type": "editorial",
+      "reliability": 90,
+      "technical_depth": 80,
+      "editorial_quality": 92,
+      "update_frequency": "daily",
+      "topics": [
+        "ai",
+        "llm",
+        "explainers"
+      ],
+      "desc_it": "Sezione AI di Ars Technica: notizie con contesto tecnico e scetticismo sano.",
+      "desc_en": "Ars Technica's AI desk: news with technical context and healthy scepticism."
+    },
+    "ieee-spectrum-ai": {
+      "category": "tech_curiosities",
+      "subcategory": "ai_infrastructure",
+      "source_type": "technical",
+      "reliability": 92,
+      "technical_depth": 85,
+      "editorial_quality": 90,
+      "update_frequency": "daily",
+      "topics": [
+        "engineering",
+        "hardware",
+        "robotics",
+        "research"
+      ],
+      "desc_it": "La rivista dell'IEEE: ingegneria vera, scritta per chi ha una formazione tecnica.",
+      "desc_en": "The IEEE's magazine: genuine engineering, written for a technical readership."
+    },
+    "venturebeat-ai": {
+      "category": "ai",
+      "subcategory": "ai_business",
+      "source_type": "editorial",
+      "reliability": 75,
+      "technical_depth": 60,
+      "editorial_quality": 72,
+      "update_frequency": "daily",
+      "topics": [
+        "enterprise ai",
+        "business",
+        "models"
+      ],
+      "desc_it": "AI dal punto di vista enterprise. Titoli a volte enfatici, contenuti generalmente corretti.",
+      "desc_en": "AI from an enterprise angle. Headlines sometimes overstated, content generally sound."
+    },
+    "theverge-ai": {
+      "category": "ai",
+      "subcategory": "ai_tools",
+      "source_type": "editorial",
+      "reliability": 80,
+      "technical_depth": 58,
+      "editorial_quality": 86,
+      "update_frequency": "daily",
+      "topics": [
+        "products",
+        "consumer ai",
+        "policy"
+      ],
+      "desc_it": "AI dal lato prodotto e consumatore, ben scritta ma raramente tecnica.",
+      "desc_en": "AI from the product and consumer side, well written but rarely technical."
+    },
+    "theverge": {
+      "category": "tech_curiosities",
+      "subcategory": "software",
+      "source_type": "editorial",
+      "reliability": 80,
+      "technical_depth": 55,
+      "editorial_quality": 86,
+      "update_frequency": "hourly",
+      "topics": [
+        "consumer tech",
+        "products",
+        "policy"
+      ],
+      "desc_it": "Tecnologia di consumo con forte identità editoriale.",
+      "desc_en": "Consumer technology with a strong editorial identity."
+    },
+    "mittr": {
+      "category": "ai",
+      "subcategory": "research",
+      "source_type": "editorial",
+      "reliability": 88,
+      "technical_depth": 72,
+      "editorial_quality": 90,
+      "update_frequency": "daily",
+      "topics": [
+        "research",
+        "policy",
+        "society"
+      ],
+      "desc_it": "MIT Technology Review: buona sulle implicazioni della ricerca, meno sui dettagli implementativi.",
+      "desc_en": "MIT Technology Review: strong on the implications of research, lighter on implementation detail."
+    },
+    "thedecoder": {
+      "category": "ai",
+      "subcategory": "models",
+      "source_type": "editorial",
+      "reliability": 78,
+      "technical_depth": 68,
+      "editorial_quality": 74,
+      "update_frequency": "daily",
+      "topics": [
+        "models",
+        "releases",
+        "research summaries"
+      ],
+      "desc_it": "Copertura frequente delle release di modelli. Utile come segnale, da verificare sulle fonti primarie.",
+      "desc_en": "Frequent coverage of model releases. Useful as a signal, worth verifying against primary sources."
+    },
+    "wired-ai": {
+      "category": "ai",
+      "subcategory": "ai_business",
+      "source_type": "editorial",
+      "reliability": 82,
+      "technical_depth": 58,
+      "editorial_quality": 88,
+      "update_frequency": "daily",
+      "topics": [
+        "culture",
+        "business",
+        "policy"
+      ],
+      "desc_it": "AI dal punto di vista culturale e politico, con reportage lunghi.",
+      "desc_en": "AI from a cultural and political angle, with long-form reporting."
+    },
+    "quanta": {
+      "category": "tech_curiosities",
+      "subcategory": "science",
+      "source_type": "editorial",
+      "reliability": 95,
+      "technical_depth": 85,
+      "editorial_quality": 95,
+      "update_frequency": "daily",
+      "specialization_bonus": true,
+      "topics": [
+        "mathematics",
+        "physics",
+        "computer science",
+        "biology"
+      ],
+      "desc_it": "Divulgazione scientifica di livello raro: rigorosa e leggibile insieme. Perfetta per la sezione curiosità.",
+      "desc_en": "Science writing of a rare standard: rigorous and readable at once. Ideal for the curiosities desk."
+    },
+    "hackaday": {
+      "category": "tech_curiosities",
+      "subcategory": "hardware",
+      "source_type": "community",
+      "reliability": 76,
+      "technical_depth": 80,
+      "editorial_quality": 70,
+      "update_frequency": "hourly",
+      "topics": [
+        "hardware",
+        "diy",
+        "electronics",
+        "reverse engineering"
+      ],
+      "desc_it": "Progetti hardware e reverse engineering dalla community. Qualità variabile, spesso sorprendente.",
+      "desc_en": "Hardware projects and reverse engineering from the community. Variable quality, frequently surprising."
+    },
+    "lilog": {
+      "category": "ai",
+      "subcategory": "research",
+      "source_type": "research",
+      "reliability": 96,
+      "technical_depth": 98,
+      "editorial_quality": 90,
+      "update_frequency": "rare",
+      "specialization_bonus": true,
+      "topics": [
+        "diffusion",
+        "agents",
+        "reasoning",
+        "transformer"
+      ],
+      "desc_it": "Lilian Weng scrive i migliori riassunti tecnici esistenti su diffusion, agenti e reasoning. Pubblica raramente, ogni pezzo vale un corso.",
+      "desc_en": "Lilian Weng writes the best technical surveys available on diffusion, agents and reasoning. Rare posts, each worth a course."
+    },
+    "importai": {
+      "category": "ai",
+      "subcategory": "research",
+      "source_type": "technical",
+      "reliability": 92,
+      "technical_depth": 85,
+      "editorial_quality": 90,
+      "update_frequency": "weekly",
+      "specialization_bonus": true,
+      "topics": [
+        "research",
+        "policy",
+        "analysis"
+      ],
+      "desc_it": "Jack Clark seleziona i paper della settimana e ne spiega le implicazioni. Fra le newsletter più informate sul settore.",
+      "desc_en": "Jack Clark selects the week's papers and explains their implications. Among the best-informed newsletters in the field."
+    },
+    "latentspace": {
+      "category": "ai",
+      "subcategory": "agents",
+      "source_type": "technical",
+      "reliability": 88,
+      "technical_depth": 85,
+      "editorial_quality": 88,
+      "update_frequency": "weekly",
+      "topics": [
+        "agents",
+        "engineering",
+        "podcast",
+        "infrastructure"
+      ],
+      "desc_it": "Newsletter e podcast rivolti agli ingegneri AI: interviste tecniche a chi costruisce i sistemi.",
+      "desc_en": "Newsletter and podcast aimed at AI engineers: technical interviews with the people building the systems."
+    },
+    "simonwillison": {
+      "category": "ai",
+      "subcategory": "llm",
+      "source_type": "technical",
+      "reliability": 92,
+      "technical_depth": 90,
+      "editorial_quality": 85,
+      "update_frequency": "daily",
+      "specialization_bonus": true,
+      "topics": [
+        "llm",
+        "tools",
+        "prompt injection",
+        "experiments"
+      ],
+      "desc_it": "Test pratici e quotidiani sui modelli, con particolare attenzione alla sicurezza e ai limiti reali.",
+      "desc_en": "Daily hands-on testing of models, with particular attention to security and real-world limits."
+    },
+    "interconnects": {
+      "category": "ai",
+      "subcategory": "research",
+      "source_type": "research",
+      "reliability": 92,
+      "technical_depth": 92,
+      "editorial_quality": 88,
+      "update_frequency": "weekly",
+      "specialization_bonus": true,
+      "topics": [
+        "rlhf",
+        "open models",
+        "training",
+        "policy"
+      ],
+      "desc_it": "Nathan Lambert sul training dei modelli e sull'ecosistema open. Analisi da ricercatore, non da osservatore.",
+      "desc_en": "Nathan Lambert on model training and the open ecosystem. Analysis from a researcher, not an observer."
+    },
+    "raschka": {
+      "category": "ai",
+      "subcategory": "llm",
+      "source_type": "research",
+      "reliability": 94,
+      "technical_depth": 95,
+      "editorial_quality": 88,
+      "update_frequency": "monthly",
+      "specialization_bonus": true,
+      "topics": [
+        "llm",
+        "architecture",
+        "training",
+        "from scratch"
+      ],
+      "desc_it": "Sebastian Raschka spiega le architetture dei modelli partendo dal codice. Ottimo per capire davvero come funzionano.",
+      "desc_en": "Sebastian Raschka explains model architectures starting from the code. The best route to actually understanding them."
+    },
+    "thebatch": {
+      "category": "ai",
+      "subcategory": "research",
+      "source_type": "editorial",
+      "reliability": 88,
+      "technical_depth": 78,
+      "editorial_quality": 88,
+      "update_frequency": "weekly",
+      "topics": [
+        "research summaries",
+        "education"
+      ],
+      "desc_it": "Newsletter di DeepLearning.AI: sintesi settimanale della ricerca con taglio didattico.",
+      "desc_en": "DeepLearning.AI's newsletter: a weekly research digest with a teaching angle."
+    },
+    "bair": {
+      "category": "ai",
+      "subcategory": "research",
+      "source_type": "research",
+      "reliability": 96,
+      "technical_depth": 96,
+      "editorial_quality": 80,
+      "update_frequency": "monthly",
+      "specialization_bonus": true,
+      "topics": [
+        "research",
+        "robotics",
+        "rl",
+        "academia"
+      ],
+      "desc_it": "Blog del Berkeley AI Research: paper raccontati dagli autori stessi.",
+      "desc_en": "The Berkeley AI Research blog: papers explained by their own authors."
+    },
+    "antirez-blog": {
+      "category": "tech_curiosities",
+      "subcategory": "programming",
+      "source_type": "technical",
+      "reliability": 92,
+      "technical_depth": 95,
+      "editorial_quality": 85,
+      "update_frequency": "monthly",
+      "language": "en",
+      "topics": [
+        "programming",
+        "systems",
+        "llm",
+        "open source"
+      ],
+      "desc_it": "Il blog di Salvatore Sanfilippo, autore di Redis: ragionamenti di un ingegnere su codice, sistemi e modelli.",
+      "desc_en": "Salvatore Sanfilippo's blog, the author of Redis: an engineer thinking out loud about code, systems and models."
+    },
+    "creativebloq-ai": {
+      "category": "generative_media",
+      "subcategory": "creative_ai",
+      "source_type": "editorial",
+      "reliability": 68,
+      "technical_depth": 45,
+      "editorial_quality": 70,
+      "update_frequency": "daily",
+      "topics": [
+        "design",
+        "ai tools",
+        "creative"
+      ],
+      "desc_it": "AI per creativi e designer. Utile per il panorama degli strumenti, da pesare meno sulle notizie tecniche.",
+      "desc_en": "AI for creatives and designers. Useful for the tool landscape, weighted down on technical news."
+    },
+    "curiousrefuge": {
+      "category": "tutorials",
+      "subcategory": "ai_filmmaking",
+      "source_type": "tutorial",
+      "reliability": 76,
+      "technical_depth": 68,
+      "editorial_quality": 80,
+      "update_frequency": "weekly",
+      "specialization_bonus": true,
+      "topics": [
+        "ai filmmaking",
+        "workflow",
+        "advertising",
+        "courses"
+      ],
+      "desc_it": "Formazione su AI filmmaking e advertising: workflow completi dal prompt alla consegna.",
+      "desc_en": "Training on AI filmmaking and advertising: complete workflows from prompt to delivery."
+    },
+    "artificialanalysis": {
+      "category": "models",
+      "subcategory": "llm",
+      "source_type": "benchmark",
+      "reliability": 92,
+      "technical_depth": 90,
+      "editorial_quality": 70,
+      "update_frequency": "daily",
+      "specialization_bonus": true,
+      "topics": [
+        "benchmark",
+        "pricing",
+        "latency",
+        "comparison"
+      ],
+      "desc_it": "Misurazioni indipendenti di qualità, prezzo, velocità e latenza dei modelli. Il riferimento per i confronti.",
+      "desc_en": "Independent measurements of model quality, price, speed and latency. The reference for comparisons."
+    },
+    "lmarena": {
+      "category": "models",
+      "subcategory": "llm",
+      "source_type": "benchmark",
+      "reliability": 90,
+      "technical_depth": 85,
+      "editorial_quality": 68,
+      "update_frequency": "weekly",
+      "specialization_bonus": true,
+      "topics": [
+        "benchmark",
+        "leaderboard",
+        "human preference"
+      ],
+      "desc_it": "Classifiche basate su confronti alla cieca votati da esseri umani, incluse quelle per immagine e video.",
+      "desc_en": "Leaderboards built on blind human-voted comparisons, including image and video."
+    },
+    "yt-arri": {
+      "category": "cinema",
+      "subcategory": "cinematography",
+      "source_type": "primary",
+      "primary_source": true,
+      "reliability": 92,
+      "technical_depth": 85,
+      "editorial_quality": 75,
+      "update_frequency": "monthly",
+      "specialization_bonus": true,
+      "topics": [
+        "camera",
+        "lenses",
+        "lighting",
+        "workflow"
+      ],
+      "desc_it": "Canale ufficiale ARRI: presentazioni di corpi macchina e ottiche, workshop tecnici e workflow di ripresa.",
+      "desc_en": "ARRI's official channel: camera body and lens presentations, technical workshops and shooting workflows.",
+      "name": "ARRI"
+    }
+  }
+}

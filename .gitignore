@@ -1,0 +1,19 @@
+# Chiavi private: non devono MAI finire su GitHub.
+.secrets
+
+# Cose prodotte dal computer, che si rigenerano da sole.
+logs/
+__pycache__/
+*.pyc
+newscreen-paper.html
+newscreen-paper-artifact.html
+
+# Il giornale del giorno lo ricostruisce GitHub a ogni aggiornamento:
+# tenerne la storia gonfierebbe il progetto senza servire a nulla.
+data/articles.json
+data/events.json
+web/data/articles.json
+web/data/events.json
+
+# Roba di macOS
+.DS_Store

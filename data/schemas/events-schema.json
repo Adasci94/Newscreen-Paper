@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://newscreen.local/schemas/events-schema.json",
+  "title": "Event",
+  "description": "A real-world story covered by several sources. Prevents the Home from showing the same announcement six times: one card per event, with the other coverage attached underneath.",
+  "type": "object",
+  "required": ["event_id", "title", "date", "category", "article_ids"],
+  "additionalProperties": false,
+  "properties": {
+    "event_id": { "type": "string" },
+    "title": { "type": "string", "description": "Taken from the highest-ranked article in the cluster, normally the primary source." },
+    "title_it": { "type": ["string", "null"] },
+    "title_en": { "type": ["string", "null"] },
+    "summary": { "type": ["string", "null"] },
+    "date": { "type": "string", "format": "date-time", "description": "Earliest published_at in the cluster." },
+    "last_update": { "type": "string", "format": "date-time" },
+    "category": { "type": "string" },
+    "subcategory": { "type": ["string", "null"] },
+    "entities": {
+      "type": "object",
+      "properties": {
+        "models": { "type": "array", "items": { "type": "string" } },
+        "companies": { "type": "array", "items": { "type": "string" } },
+        "people": { "type": "array", "items": { "type": "string" } },
+        "tools": { "type": "array", "items": { "type": "string" } },
+        "films": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "importance": { "type": "number", "minimum": 0, "maximum": 100, "description": "Boosted by the number of independent sources and by the presence of a primary source." },
+    "primary_source": { "type": ["string", "null"], "description": "sources.json id of the primary/official source, when the cluster contains one." },
+    "primary_article_id": { "type": ["string", "null"] },
+    "secondary_sources": { "type": "array", "items": { "type": "string" } },
+    "sources": { "type": "array", "items": { "type": "string" }, "description": "All distinct source ids covering the event." },
+    "article_ids": { "type": "array", "items": { "type": "string" } },
+    "coverage_count": { "type": "integer", "minimum": 1 }
+  }
+}

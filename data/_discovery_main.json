@@ -1,0 +1,1969 @@
+[
+  {
+    "id": "variety",
+    "name": "Variety",
+    "url": "https://variety.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://variety.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "Antonio Banderas, Trudie Styler and Eva Birthistle on the Sorrow and Joy of TIFF Medical Dramedy ‘Up Against I",
+        "latest_date": "Sat, 12 Sep 2026 15:00:00 +0000"
+      },
+      {
+        "url": "https://variety.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "Antonio Banderas, Trudie Styler and Eva Birthistle on the Sorrow and Joy of TIFF Medical Dramedy ‘Up Against I",
+        "latest_date": "Sat, 12 Sep 2026 15:00:00 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://variety.com/sitemap_index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "variety-film",
+    "name": "Variety Film",
+    "url": "https://variety.com/v/film/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://variety.com/v/film/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "Menswear Designer Todd Snyder on His Brand’s 15th Anniversary and Having Ryan Gosling and Matt Bomer as His Fi",
+        "latest_date": "Sat, 12 Sep 2026 15:00:00 +0000"
+      },
+      {
+        "url": "https://variety.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "Antonio Banderas, Trudie Styler and Eva Birthistle on the Sorrow and Joy of TIFF Medical Dramedy ‘Up Against I",
+        "latest_date": "Sat, 12 Sep 2026 15:00:00 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://variety.com/sitemap_index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "thr",
+    "name": "The Hollywood Reporter",
+    "url": "https://www.hollywoodreporter.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "In ‘Magazine’, Director Alexandra Pechman Brings a Bygone Era of Print Media (and the 2010s) to TIFF Audiences",
+        "latest_date": "Sat, 12 Sep 2026 15:00:00 +0000"
+      },
+      {
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "In ‘Magazine’, Director Alexandra Pechman Brings a Bygone Era of Print Media (and the 2010s) to TIFF Audiences",
+        "latest_date": "Sat, 12 Sep 2026 15:00:00 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.hollywoodreporter.com/sitemap_index.xml/",
+    "html_status": 200
+  },
+  {
+    "id": "thr-movies",
+    "name": "The Hollywood Reporter Movies",
+    "url": "https://www.hollywoodreporter.com/c/movies/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.hollywoodreporter.com/c/movies/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "In ‘Magazine’, Director Alexandra Pechman Brings a Bygone Era of Print Media (and the 2010s) to TIFF Audiences",
+        "latest_date": "Sat, 12 Sep 2026 15:00:00 +0000"
+      },
+      {
+        "url": "https://www.hollywoodreporter.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "In ‘Magazine’, Director Alexandra Pechman Brings a Bygone Era of Print Media (and the 2010s) to TIFF Audiences",
+        "latest_date": "Sat, 12 Sep 2026 15:00:00 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.hollywoodreporter.com/sitemap_index.xml/",
+    "html_status": 200
+  },
+  {
+    "id": "deadline",
+    "name": "Deadline",
+    "url": "https://deadline.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://deadline.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 12,
+        "latest_title": "‘The Family Stone’ Sequel Set At Searchlight With Claire Danes, Rachel McAdams, Sarah Jessica Parker & Many Mo",
+        "latest_date": "Sat, 12 Sep 2026 14:00:00 +0000"
+      },
+      {
+        "url": "https://deadline.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 12,
+        "latest_title": "‘The Family Stone’ Sequel Set At Searchlight With Claire Danes, Rachel McAdams, Sarah Jessica Parker & Many Mo",
+        "latest_date": "Sat, 12 Sep 2026 14:00:00 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://deadline.com/sitemap_index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "deadline-film",
+    "name": "Deadline Film",
+    "url": "https://deadline.com/v/film/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://deadline.com/v/film/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 12,
+        "latest_title": "‘The Family Stone’ Sequel Set At Searchlight With Claire Danes, Rachel McAdams, Sarah Jessica Parker & Many Mo",
+        "latest_date": "Sat, 12 Sep 2026 14:00:00 +0000"
+      },
+      {
+        "url": "https://deadline.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 12,
+        "latest_title": "‘The Family Stone’ Sequel Set At Searchlight With Claire Danes, Rachel McAdams, Sarah Jessica Parker & Many Mo",
+        "latest_date": "Sat, 12 Sep 2026 14:00:00 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://deadline.com/sitemap_index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "indiewire",
+    "name": "IndieWire",
+    "url": "https://www.indiewire.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.indiewire.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 12,
+        "latest_title": "Jeremy Thomas, Oscar-Winning Producer for Bertolucci, Cronenberg, and Herzog’s ‘Bucking Fastard,’ Dead at 77",
+        "latest_date": "Sat, 12 Sep 2026 14:40:50 +0000"
+      },
+      {
+        "url": "https://www.indiewire.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 12,
+        "latest_title": "Jeremy Thomas, Oscar-Winning Producer for Bertolucci, Cronenberg, and Herzog’s ‘Bucking Fastard,’ Dead at 77",
+        "latest_date": "Sat, 12 Sep 2026 14:40:50 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.indiewire.com/sitemap_index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "screendaily",
+    "name": "Screen Daily",
+    "url": "https://www.screendaily.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.screendaily.com/45202.rss",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 5,
+        "latest_title": "Venice Film Festival 2026 awards ceremony – watch and follow the winners live",
+        "latest_date": "Sat, 12 Sep 2026 14:44:00 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.screendaily.com/GoogleSiteMapIndex.aspx",
+    "html_status": 200
+  },
+  {
+    "id": "cineuropa",
+    "name": "Cineuropa",
+    "url": "https://cineuropa.org/en/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://cineuropa.org/rss/en/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 50,
+        "latest_title": "Recensione: Ritorno a Buenos Aires - Venezia 2026 - Concorso",
+        "latest_date": "Sat, 12 Sep 2026 14:00:00 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://cineuropa.org/siteMap/siteMap00.xml",
+    "html_status": 403
+  },
+  {
+    "id": "cinefacts",
+    "name": "CineFacts",
+    "url": "https://www.cinefacts.it/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://www.cinefacts.it/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "movieplayer",
+    "name": "Movieplayer",
+    "url": "https://movieplayer.it/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://movieplayer.it/rss/news.xml",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 30,
+        "latest_title": "Assassination Classroom – L’ora di tutti noi arriva al cinema: ecco una clip in anteprima",
+        "latest_date": "Sat, 12 Sep 2026 16:41:35 +0200"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://movieplayer.it/sitemap/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "criterion",
+    "name": "Criterion — The Current",
+    "url": "https://www.criterion.com/current/posts",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "http://sitemap.criterion.com/index.xml",
+    "html_status": 403
+  },
+  {
+    "id": "thefilmstage",
+    "name": "The Film Stage",
+    "url": "https://thefilmstage.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://thefilmstage.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 12,
+        "latest_title": "Black Zombie Review: Unpacking the Psychology, Spirituality, and Heritage of a Horror Touchstone",
+        "latest_date": "Sat, 12 Sep 2026 02:04:39 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://thefilmstage.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "vfxvoice",
+    "name": "VFX Voice",
+    "url": "https://www.vfxvoice.com/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 0
+  },
+  {
+    "id": "fxguide",
+    "name": "fxguide",
+    "url": "https://www.fxguide.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.fxguide.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 15,
+        "latest_title": "VFXShow 309: The End of Oak Street",
+        "latest_date": "Wed, 09 Sep 2026 16:54:21 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.fxguide.com/sitemaps.xml",
+    "html_status": 200
+  },
+  {
+    "id": "ascmag",
+    "name": "American Cinematographer",
+    "url": "https://www.ascmag.com/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 403
+  },
+  {
+    "id": "nofilmschool",
+    "name": "No Film School",
+    "url": "https://nofilmschool.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://nofilmschool.com/feeds/content-types/article.rss",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 30,
+        "latest_title": "Add Sophistication to Your Shots With These Variable ND Filters From Tiffen",
+        "latest_date": "Fri, 11 Sep 2026 21:50:45 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://nofilmschool.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "beforesandafters",
+    "name": "befores & afters",
+    "url": "https://beforesandafters.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://beforesandafters.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "Yes, this is how they animated the Arachnids",
+        "latest_date": "Fri, 11 Sep 2026 12:57:13 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://beforesandafters.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "provideocoalition",
+    "name": "ProVideo Coalition",
+    "url": "https://www.provideocoalition.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.provideocoalition.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "Litepanels expands Astra IP range with new kits and accessories",
+        "latest_date": "Sat, 12 Sep 2026 12:23:02 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.provideocoalition.com/sitemap_index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "postperspective",
+    "name": "postPerspective",
+    "url": "https://postperspective.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://postperspective.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "Acon Acoustica 8 Provides AI-Assisted Audio Workflow Tools",
+        "latest_date": "Fri, 11 Sep 2026 17:37:44 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://postperspective.com/sitemap_index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "filmmakermagazine",
+    "name": "Filmmaker Magazine",
+    "url": "https://filmmakermagazine.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://filmmakermagazine.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "Spa Eclectics: At Karlovy Vary",
+        "latest_date": "Wed, 29 Jul 2026 15:10:21 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "http://filmmakermagazine.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "littlewhitelies",
+    "name": "Little White Lies",
+    "url": "https://lwlies.com/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://lwlies.com/sitemaps-2-sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "bfi",
+    "name": "BFI — Sight and Sound",
+    "url": "https://www.bfi.org.uk/sight-and-sound",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.bfi.org.uk/rss-feed",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 30,
+        "latest_title": "Wild Horse Nine: Martin McDonagh deploys his trademark irreverence in a funny-sad 1970s spy caper",
+        "latest_date": "Fri, 11 Sep 2026 00:00:00 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.bfi.org.uk/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "cartoonbrew",
+    "name": "Cartoon Brew",
+    "url": "https://www.cartoonbrew.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.cartoonbrew.com/feed",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "‘Please,’ ‘God Is Shy,’ ‘Ball Face’ Among 2026 Viborg Animation Festival Winners",
+        "latest_date": "Fri, 11 Sep 2026 23:06:06 +0000"
+      },
+      {
+        "url": "https://www.cartoonbrew.com/feed",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "‘Please,’ ‘God Is Shy,’ ‘Ball Face’ Among 2026 Viborg Animation Festival Winners",
+        "latest_date": "Fri, 11 Sep 2026 23:06:06 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.cartoonbrew.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "cannes",
+    "name": "Festival de Cannes",
+    "url": "https://www.festival-cannes.com/en/press/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://www.festival-cannes.com/sitemap_index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "sundance",
+    "name": "Sundance Institute",
+    "url": "https://www.sundance.org/blogs/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.sundance.org/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "“If I Go Will They Miss Me” Explores Fractured Fatherhood Through a Poetic Lens",
+        "latest_date": "Fri, 11 Sep 2026 19:30:00 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.sundance.org/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "oscars",
+    "name": "Academy — Oscars",
+    "url": "https://www.oscars.org/news",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 403
+  },
+  {
+    "id": "berlinale",
+    "name": "Berlinale",
+    "url": "https://www.berlinale.de/en/news/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://www.berlinale.de/de/sitemap.xml",
+    "html_status": 404
+  },
+  {
+    "id": "labiennale",
+    "name": "La Biennale di Venezia — Cinema",
+    "url": "https://www.labiennale.org/en/cinema",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.labiennale.org/en/rss.xml",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 50,
+        "latest_title": "Collateral Awards and Events of the 83rd Venice Film Festival",
+        "latest_date": "Sat, 12 Sep 2026 12:48:23 +0200"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.labiennale.org/it/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "url": "https://openai.com/news/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://openai.com/news/rss.xml",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 1192,
+        "latest_title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+        "latest_date": "Mon, 14 Sep 2026 00:00:00 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://openai.com/sitemap.xml",
+    "html_status": 403
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "url": "https://www.anthropic.com/news",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://www.anthropic.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "deepmind",
+    "name": "Google DeepMind",
+    "url": "https://deepmind.google/discover/blog/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://deepmind.google/blog/rss.xml",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 100,
+        "latest_title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+        "latest_date": "Tue, 08 Sep 2026 14:00:15 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://deepmind.google/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "metaai",
+    "name": "Meta AI",
+    "url": "https://ai.meta.com/blog/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://ai.meta.com/sitemap/ai_meta_com_sitemap.xml.gz",
+    "html_status": 400
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "url": "https://x.ai/news",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://x.ai/sitemap.xml",
+    "html_status": 403
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral AI",
+    "url": "https://mistral.ai/news/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://mistral.ai/news/rss",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 86,
+        "latest_title": "Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data",
+        "latest_date": "Thu, 10 Sep 2026 10:42:55 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://mistral.ai/sitemap-index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "nvidia-genai",
+    "name": "NVIDIA Developer — Generative AI",
+    "url": "https://developer.nvidia.com/blog/category/generative-ai/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://developer.nvidia.com/blog/category/generative-ai/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 100,
+        "latest_title": "How Full-Stack NIM Optimizations Deliver 2.5x More Users on Nemotron 3 Ultra",
+        "latest_date": "2026-09-10T16:55:39Z"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://developer.nvidia.com/sitemap_index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "nvidia-blog",
+    "name": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://blogs.nvidia.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 18,
+        "latest_title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
+        "latest_date": "Thu, 10 Sep 2026 16:30:35 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://blogs.nvidia.com/feed/",
+    "html_status": 200
+  },
+  {
+    "id": "googleresearch",
+    "name": "Google Research",
+    "url": "https://research.google/blog/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://research.google/blog/rss/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 100,
+        "latest_title": "ToolGrad: Efficient tool-use dataset generation with textual \"gradients\"",
+        "latest_date": "Thu, 10 Sep 2026 22:50:22 +0000"
+      },
+      {
+        "url": "http://feeds.feedburner.com/blogspot/gJZg",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 25,
+        "latest_title": "Generative AI to quantify uncertainty in weather forecasting",
+        "latest_date": "2024-03-29T11:03:10.261-07:00"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://research.google/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "googledev",
+    "name": "Google Developers Blog",
+    "url": "https://developers.googleblog.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://developers.googleblog.com/feeds/posts/default/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "Autonomous LLM post-training with Tunix on TPUs",
+        "latest_date": ""
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://developers.googleblog.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "msresearch",
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/blog/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.microsoft.com/en-us/research/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation model",
+        "latest_date": "Mon, 31 Aug 2026 16:00:00 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.microsoft.com/store/sitemap-index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://huggingface.co/blog/feed.xml",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 861,
+        "latest_title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+        "latest_date": "Thu, 10 Sep 2026 00:00:00 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://huggingface.co/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "stability",
+    "name": "Stability AI",
+    "url": "https://stability.ai/news",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://stability.ai/news-updates?format=rss",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "The Entertainment Industry’s Biggest Names Back Stability AI in Latest Funding Round",
+        "latest_date": "Tue, 25 Aug 2026 14:59:22 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://stability.ai/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "bfl",
+    "name": "Black Forest Labs",
+    "url": "https://bfl.ai/announcements",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://bfl.ai/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io/blog",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://elevenlabs.io/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "url": "https://runwayml.com/news",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 308
+  },
+  {
+    "id": "luma",
+    "name": "Luma AI",
+    "url": "https://lumalabs.ai/news",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://lumalabs.ai/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "midjourney-updates",
+    "name": "Midjourney Updates",
+    "url": "https://updates.midjourney.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://updates.midjourney.com/rss/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 15,
+        "latest_title": "Collecting ideas to improve Midjourney",
+        "latest_date": "Thu, 03 Sep 2026 19:44:24 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://updates.midjourney.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "adobe-blog",
+    "name": "Adobe Blog",
+    "url": "https://blog.adobe.com/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://blog.adobe.com/en/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "comfyui-blog",
+    "name": "ComfyUI Blog",
+    "url": "https://blog.comfy.org/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://blog.comfy.org/feed",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "Forward Deployed Creatives",
+        "latest_date": "Fri, 04 Sep 2026 17:06:37 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://blog.comfy.org/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "comfyui-releases",
+    "name": "ComfyUI Releases (GitHub)",
+    "url": "https://github.com/comfyanonymous/ComfyUI",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://github.com/Comfy-Org/ComfyUI/releases.atom",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 10,
+        "latest_title": "v0.35.1",
+        "latest_date": "2026-09-10T21:14:03Z"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "techcrunch-ai",
+    "name": "TechCrunch AI",
+    "url": "https://techcrunch.com/category/artificial-intelligence/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 19,
+        "latest_title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+        "latest_date": "Fri, 11 Sep 2026 22:58:17 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://techcrunch.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "arstechnica",
+    "name": "Ars Technica",
+    "url": "https://arstechnica.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://arstechnica.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "I spent $4,000 on a robot dog from China",
+        "latest_date": "Sat, 12 Sep 2026 11:00:53 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://arstechnica.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "arstechnica-ai",
+    "name": "Ars Technica AI",
+    "url": "https://arstechnica.com/ai/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://arstechnica.com/ai/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "I spent $4,000 on a robot dog from China",
+        "latest_date": "Sat, 12 Sep 2026 11:00:53 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://arstechnica.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "ieee-spectrum-ai",
+    "name": "IEEE Spectrum AI",
+    "url": "https://spectrum.ieee.org/topic/artificial-intelligence/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 30,
+        "latest_title": "AI Models Are Watermarking Text—Will You Notice?",
+        "latest_date": "Wed, 09 Sep 2026 12:00:04 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://spectrum.ieee.org/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "venturebeat-ai",
+    "name": "VentureBeat AI",
+    "url": "https://venturebeat.com/category/ai/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://venturebeat.com/sitemap.xml",
+    "html_status": 308
+  },
+  {
+    "id": "theverge-ai",
+    "name": "The Verge AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.theverge.com/rss/index.xml",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 10,
+        "latest_title": "Trump is giving data centers a pass to pollute",
+        "latest_date": "2026-09-12T10:41:27-04:00"
+      },
+      {
+        "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 10,
+        "latest_title": "Trump is giving data centers a pass to pollute",
+        "latest_date": "2026-09-12T10:41:27-04:00"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.theverge.com/sitemaps/google_news",
+    "html_status": 200
+  },
+  {
+    "id": "theverge",
+    "name": "The Verge",
+    "url": "https://www.theverge.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.theverge.com/rss/index.xml",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 10,
+        "latest_title": "Trump is giving data centers a pass to pollute",
+        "latest_date": "2026-09-12T10:41:27-04:00"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.theverge.com/sitemaps/google_news",
+    "html_status": 200
+  },
+  {
+    "id": "mittr",
+    "name": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.technologyreview.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "Roundtables: AI’s apocalypse crisis",
+        "latest_date": "Fri, 11 Sep 2026 20:05:06 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.technologyreview.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "thedecoder",
+    "name": "The Decoder",
+    "url": "https://the-decoder.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://the-decoder.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "Anthropic CEO Amodei wants AI speed limits before self-improvement outpaces human control",
+        "latest_date": "Sat, 12 Sep 2026 15:03:21 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://the-decoder.com/sitemap_index.xml",
+    "html_status": 200
+  },
+  {
+    "id": "wired-ai",
+    "name": "WIRED AI",
+    "url": "https://www.wired.com/tag/artificial-intelligence/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.wired.com/feed/tag/ai/latest/rss",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 10,
+        "latest_title": "From Hacks to Bioweapons, Claude Misuse Is Now Everywhere",
+        "latest_date": "Sat, 12 Sep 2026 10:30:00 +0000"
+      },
+      {
+        "url": "https://www.wired.com/feed/rss",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 50,
+        "latest_title": "10 Best Standing Desks Worth Buying in 2026",
+        "latest_date": "Sat, 12 Sep 2026 11:08:00 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.wired.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "quanta",
+    "name": "Quanta Magazine",
+    "url": "https://www.quantamagazine.org/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.quantamagazine.org/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 5,
+        "latest_title": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
+        "latest_date": "Fri, 11 Sep 2026 14:14:40 +0000"
+      },
+      {
+        "url": "https://www.quantamagazine.org/quanta/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 1,
+        "latest_title": "Quanta",
+        "latest_date": "Wed, 10 Jul 2013 23:09:24 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.quantamagazine.org/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "hackaday",
+    "name": "Hackaday",
+    "url": "https://hackaday.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://hackaday.com/feed/",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 7,
+        "latest_title": "Supercon is Nigh!",
+        "latest_date": "Sat, 12 Sep 2026 14:00:50 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "http:///sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "lilog",
+    "name": "Lil'Log — Lilian Weng",
+    "url": "https://lilianweng.github.io/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://lilianweng.github.io/index.xml",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 53,
+        "latest_title": "Harness Engineering for Self-Improvement",
+        "latest_date": "Sat, 04 Jul 2026 00:00:00 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://lilianweng.github.io/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "importai",
+    "name": "Import AI — Jack Clark",
+    "url": "https://importai.substack.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://importai.substack.com/feed",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "Import AI 472: DeepMind's cheating math agents; populist AI policies; and Forethought theorizes a nightwatchma",
+        "latest_date": "Mon, 07 Sep 2026 12:26:31 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://importai.substack.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "latentspace",
+    "name": "Latent Space",
+    "url": "https://www.latent.space/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.latent.space/feed",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
+        "latest_date": "Sat, 12 Sep 2026 15:01:19 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.latent.space/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "simonwillison",
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://simonwillison.net/atom/everything/",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 30,
+        "latest_title": "OpenAI agents attacked RubyGems back in May",
+        "latest_date": "2026-09-12T00:42:25+00:00"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://simonwillison.net/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "interconnects",
+    "name": "Interconnects — Nathan Lambert",
+    "url": "https://www.interconnects.ai/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.interconnects.ai/feed",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "Open-Source AI & Open Models Reading List",
+        "latest_date": "Fri, 11 Sep 2026 12:36:25 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.interconnects.ai/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "raschka",
+    "name": "Ahead of AI — Sebastian Raschka",
+    "url": "https://magazine.sebastianraschka.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://magazine.sebastianraschka.com/feed",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+        "latest_date": "Wed, 09 Sep 2026 11:14:25 GMT"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://magazine.sebastianraschka.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "thebatch",
+    "name": "The Batch — DeepLearning.AI",
+    "url": "https://www.deeplearning.ai/the-batch/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://www.deeplearning.ai/sitemap.xml",
+    "html_status": 308
+  },
+  {
+    "id": "bair",
+    "name": "Berkeley BAIR Blog",
+    "url": "https://bair.berkeley.edu/blog/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 0
+  },
+  {
+    "id": "antirez-blog",
+    "name": "antirez — blog",
+    "url": "https://antirez.com/",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://antirez.com/rss",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 100,
+        "latest_title": "The real AI risk is inside the labs",
+        "latest_date": "Tue, 28 Jul 2026 11:00:11 +0200"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "creativebloq-ai",
+    "name": "Creative Bloq AI",
+    "url": "https://www.creativebloq.com/ai",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://www.creativebloq.com/feeds/tag/ai",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 25,
+        "latest_title": "iPhone 18 Pro preorders are open – here's how to get it for free",
+        "latest_date": "Sat, 12 Sep 2026 12:57:27 +0000"
+      },
+      {
+        "url": "https://www.creativebloq.com/feeds.xml",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 25,
+        "latest_title": "iPhone 18 Pro preorders are open – here's how to get it for free",
+        "latest_date": "Sat, 12 Sep 2026 12:57:27 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://www.creativebloq.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "curiousrefuge",
+    "name": "Curious Refuge",
+    "url": "https://curiousrefuge.com/blog",
+    "kind": "web",
+    "feeds": [
+      {
+        "url": "https://curiousrefuge.com/blog?format=rss",
+        "ok": true,
+        "status": 200,
+        "type": "rss",
+        "items": 20,
+        "latest_title": "How Good Is GPT Image 2.5? | Tutorial",
+        "latest_date": "Fri, 11 Sep 2026 20:50:08 +0000"
+      }
+    ],
+    "channel_id": null,
+    "sitemap": "https://curiousrefuge.com/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "artificialanalysis",
+    "name": "Artificial Analysis",
+    "url": "https://artificialanalysis.ai/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://artificialanalysis.ai/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "lmarena",
+    "name": "LMArena",
+    "url": "https://lmarena.ai/",
+    "kind": "web",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": "https://arena.ai/sitemap.xml",
+    "html_status": 200
+  },
+  {
+    "id": "yt-enkk",
+    "name": "Enkk",
+    "url": "https://www.youtube.com/@enkk",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvGwatHyCegYsG_y09qH1zw",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "Astra la vista, baby! GPT-6 è qui",
+        "latest_date": "2026-09-04T12:22:53+00:00"
+      }
+    ],
+    "channel_id": "UCvGwatHyCegYsG_y09qH1zw",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-antirez",
+    "name": "antirez — Salvatore Sanfilippo",
+    "url": "https://www.youtube.com/@antirez",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCDDG9vOcmgwlslJJpCWjqOg",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "Proviamo DeepSeek v4.1 Flash a 2 bit con DwarfStar (SUB ITA)",
+        "latest_date": "2026-09-12T12:49:06+00:00"
+      }
+    ],
+    "channel_id": "UCDDG9vOcmgwlslJJpCWjqOg",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-karpathy",
+    "name": "Andrej Karpathy",
+    "url": "https://www.youtube.com/@AndrejKarpathy",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "How I use LLMs",
+        "latest_date": "2026-05-19T21:50:43+00:00"
+      }
+    ],
+    "channel_id": "UCXUPKJO5MZQN11PqgIvyuvQ",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-yannic",
+    "name": "Yannic Kilcher",
+    "url": "https://www.youtube.com/@YannicKilcher",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCZHmQk67mSJgfCCTn7xBfew",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "I BUILT A FULLY AUTOMATIC MANSPLAINER",
+        "latest_date": "2026-05-24T02:20:45+00:00"
+      }
+    ],
+    "channel_id": "UCZHmQk67mSJgfCCTn7xBfew",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-3b1b",
+    "name": "3Blue1Brown",
+    "url": "https://www.youtube.com/@3blue1brown",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "The jumping pegs puzzle",
+        "latest_date": "2026-09-05T21:58:37+00:00"
+      }
+    ],
+    "channel_id": "UCYO_jab_esuFRV4b17AJtAw",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-twominute",
+    "name": "Two Minute Papers",
+    "url": "https://www.youtube.com/@TwoMinutePapers",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "I Never Thought I’d See This Happen",
+        "latest_date": "2026-09-11T09:07:03+00:00"
+      }
+    ],
+    "channel_id": "UCbfYPyITQ-7l4upoX8nvctg",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-mlst",
+    "name": "Machine Learning Street Talk",
+    "url": "https://www.youtube.com/@MachineLearningStreetTalk",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCMLtBahI5DMrt0NPvDSoIRQ",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "AlphaGo’s Move 37 Wasn’t Creative? | Edward Hughes",
+        "latest_date": "2026-09-12T14:20:27+00:00"
+      }
+    ],
+    "channel_id": "UCMLtBahI5DMrt0NPvDSoIRQ",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-statquest",
+    "name": "StatQuest",
+    "url": "https://www.youtube.com/@statquest",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtYLUTtgS3k1Fg4y5tAhLbw",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "The GELU, SiLU and SwiGLU activation functions, clearly explained!!!",
+        "latest_date": "2026-09-08T04:00:33+00:00"
+      }
+    ],
+    "channel_id": "UCtYLUTtgS3k1Fg4y5tAhLbw",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-curiousrefuge",
+    "name": "Curious Refuge",
+    "url": "https://www.youtube.com/@CuriousRefuge",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UClnFtyUEaxQOCd1s5NKYGFA",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "Our AI Horror Film Competition is Back 👻",
+        "latest_date": "2026-09-12T07:43:55+00:00"
+      }
+    ],
+    "channel_id": "UClnFtyUEaxQOCd1s5NKYGFA",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-mattvidpro",
+    "name": "MattVidPro AI",
+    "url": "https://www.youtube.com/@MattVidPro",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC5Wz4fFacYuON6IKbhSa7Zw",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "I Gave ChatGPT Images 2.5 Some VERY Weird Prompts",
+        "latest_date": "2026-09-12T07:45:13+00:00"
+      }
+    ],
+    "channel_id": "UC5Wz4fFacYuON6IKbhSa7Zw",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-computerphile",
+    "name": "Computerphile",
+    "url": "https://www.youtube.com/@Computerphile",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "The AI Language We Can't Read: Neuralese ft. Rob Miles - Computerphile",
+        "latest_date": "2026-09-11T10:01:45+00:00"
+      }
+    ],
+    "channel_id": "UC9-y-6csu5WGm29I7JiwpnA",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-welchlabs",
+    "name": "Welch Labs",
+    "url": "https://www.youtube.com/@WelchLabsVideo",
+    "kind": "youtube",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 404
+  },
+  {
+    "id": "yt-bycloud",
+    "name": "bycloud",
+    "url": "https://www.youtube.com/@bycloudAI",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgfe2ooZD3VJPB6aJAnuQng",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "Robots Just Had Their GPT-3 Moment",
+        "latest_date": "2026-09-04T13:18:56+00:00"
+      }
+    ],
+    "channel_id": "UCgfe2ooZD3VJPB6aJAnuQng",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-fireship",
+    "name": "Fireship",
+    "url": "https://www.youtube.com/@Fireship",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "OpenAI's biggest math breakthrough is getting ugly...",
+        "latest_date": "2026-09-12T07:10:59+00:00"
+      }
+    ],
+    "channel_id": "UCsBjURrPoezykLs9EqgamOA",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-corridorcrew",
+    "name": "Corridor Crew",
+    "url": "https://www.youtube.com/@CorridorCrew",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSpFnDQr88xCZ80N-X7t0nQ",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "Why movies DON'T use miniatures anymore",
+        "latest_date": "2026-09-11T16:07:28+00:00"
+      }
+    ],
+    "channel_id": "UCSpFnDQr88xCZ80N-X7t0nQ",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-indepthcine",
+    "name": "In Depth Cine",
+    "url": "https://www.youtube.com/@InDepthCine",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUodELQsFwF8dq0X-bK9FQQ",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "The NEW Cinema Camera Dominating The Film Industry",
+        "latest_date": "2026-08-30T13:24:21+00:00"
+      }
+    ],
+    "channel_id": "UCUodELQsFwF8dq0X-bK9FQQ",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-wolfcrow",
+    "name": "wolfcrow",
+    "url": "https://www.youtube.com/@wolfcrow",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC7gBcKzHKc0oOR5-XiWdlFQ",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "How did Jurassic Park Look This Good in 1993 when Nothing Else did?",
+        "latest_date": "2026-09-12T04:14:50+00:00"
+      }
+    ],
+    "channel_id": "UC7gBcKzHKc0oOR5-XiWdlFQ",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-studiobinder",
+    "name": "StudioBinder",
+    "url": "https://www.youtube.com/@StudioBinder",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUFoQUaVRt3MVFxqwPUMLCQ",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "How Ridley Scott Used Design to Become a Director",
+        "latest_date": "2026-09-11T17:44:05+00:00"
+      }
+    ],
+    "channel_id": "UCUFoQUaVRt3MVFxqwPUMLCQ",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-filmriot",
+    "name": "Film Riot",
+    "url": "https://www.youtube.com/@filmriot",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC6P24bhhCmMPOcujA9PKPTA",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "We Made a Dragon",
+        "latest_date": "2026-09-11T19:29:32+00:00"
+      }
+    ],
+    "channel_id": "UC6P24bhhCmMPOcujA9PKPTA",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-nofilmschool",
+    "name": "No Film School",
+    "url": "https://www.youtube.com/@nofilmschool",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCM2FoYtC-2PQzMr_gDfQnHg",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "NAB 2024: A Light Chat With Cineflares",
+        "latest_date": "2026-09-08T20:06:22+00:00"
+      }
+    ],
+    "channel_id": "UCM2FoYtC-2PQzMr_gDfQnHg",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-aputure",
+    "name": "Aputure",
+    "url": "https://www.youtube.com/@Aputure",
+    "kind": "youtube",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 404
+  },
+  {
+    "id": "yt-blackmagic",
+    "name": "Blackmagic Design",
+    "url": "https://www.youtube.com/@Blackmagic_Design",
+    "kind": "youtube",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 404
+  },
+  {
+    "id": "yt-theoreticallymedia",
+    "name": "Theoretically Media",
+    "url": "https://www.youtube.com/@TheoreticallyMedia",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC9Ryt3XOGYBoAJVsBHNGDzA",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "GPT-IMAGE 2.5: The New King of AI Images!",
+        "latest_date": "2026-09-10T06:51:43+00:00"
+      }
+    ],
+    "channel_id": "UC9Ryt3XOGYBoAJVsBHNGDzA",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-olivio",
+    "name": "Olivio Sarikas",
+    "url": "https://www.youtube.com/@OlivioSarikas",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCKx8mAHiFus-XYQLy_WnaA",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "ATLAS Model - The Future of 3D AI Space",
+        "latest_date": "2026-09-04T15:59:52+00:00"
+      }
+    ],
+    "channel_id": "UCCKx8mAHiFus-XYQLy_WnaA",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-sebastiankamph",
+    "name": "Sebastian Kamph",
+    "url": "https://www.youtube.com/@sebastiankamph",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvKqTb-65iAmXK59sFNKINQ",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "Automate your film production with AI - invideo Agent 2",
+        "latest_date": "2026-09-11T11:11:05+00:00"
+      }
+    ],
+    "channel_id": "UCvKqTb-65iAmXK59sFNKINQ",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-mattwolfe",
+    "name": "Matt Wolfe",
+    "url": "https://www.youtube.com/@mreflow",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChpleBmo18P08aKCIgti38g",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "AI News: The AI World is REALLY Scared Right Now",
+        "latest_date": "2026-09-12T02:00:47+00:00"
+      }
+    ],
+    "channel_id": "UChpleBmo18P08aKCIgti38g",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-aiexplained",
+    "name": "AI Explained",
+    "url": "https://www.youtube.com/@aiexplained-official",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "GPT 6 Astra, so good even OpenAI are worried",
+        "latest_date": "2026-09-11T07:53:06+00:00"
+      }
+    ],
+    "channel_id": "UCNJ1Ymd5yFuUPtn21xtRbbw",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-dwarkesh",
+    "name": "Dwarkesh Patel",
+    "url": "https://www.youtube.com/@DwarkeshPatel",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXl4i9dYBrFOabk0xGmbkRA",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "Why the Newest AI Model Feels Dumb After a Month",
+        "latest_date": "2026-09-12T06:28:40+00:00"
+      }
+    ],
+    "channel_id": "UCXl4i9dYBrFOabk0xGmbkRA",
+    "sitemap": null,
+    "html_status": 200
+  },
+  {
+    "id": "yt-teamdeakins",
+    "name": "Team Deakins",
+    "url": "https://www.youtube.com/@TeamDeakins",
+    "kind": "youtube",
+    "feeds": [],
+    "channel_id": null,
+    "sitemap": null,
+    "html_status": 404
+  },
+  {
+    "id": "yt-artofthefilm",
+    "name": "Every Frame a Painting",
+    "url": "https://www.youtube.com/@everyframeapainting",
+    "kind": "youtube",
+    "feeds": [
+      {
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjFqcJQXGZ6T6sxyFB-5i6A",
+        "ok": true,
+        "status": 200,
+        "type": "atom",
+        "items": 15,
+        "latest_title": "Every Frame x Lackadaisy - Interview with Tracy J. Butler & Fable Siegel",
+        "latest_date": "2026-05-29T22:31:45+00:00"
+      }
+    ],
+    "channel_id": "UCjFqcJQXGZ6T6sxyFB-5i6A",
+    "sitemap": null,
+    "html_status": 200
+  }
+]

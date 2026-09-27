@@ -1,0 +1,875 @@
+{
+  "note": "Every creator assessed individually, not added wholesale. 'verdict' records the call and why. Only creators with include=true end up in creators.json and in the ingest.",
+  "creators": {
+    "yt-enkk": {
+      "include": true,
+      "name": "Enkk",
+      "alias": "enkk",
+      "website": "https://enkk.me/",
+      "x": null,
+      "language": [
+        "it"
+      ],
+      "country": "IT",
+      "creator_type": "educator",
+      "category": "ai",
+      "subcategory": "ai_creators",
+      "reliability": 85,
+      "technical_depth": 78,
+      "editorial_quality": 85,
+      "creator_score": 85,
+      "topics": [
+        "AI",
+        "LLM",
+        "NLP",
+        "alfabetizzazione AI",
+        "anti-hype",
+        "divulgazione"
+      ],
+      "desc_it": "Divulgatore italiano su AI e LLM, con un taglio dichiaratamente anti-hype: spiega cosa i modelli fanno davvero e cosa no. Fra le poche fonti in italiano su questi temi con questo livello di attenzione.",
+      "desc_en": "Italian educator on AI and LLMs with a deliberately anti-hype stance: he explains what models actually do and what they do not. One of very few Italian-language sources on these topics at this level of care.",
+      "verdict": "Included. Rare combination: Italian language, technical accuracy and no hype. Weighted as creator, never as primary source."
+    },
+    "yt-antirez": {
+      "include": true,
+      "name": "Salvatore Sanfilippo",
+      "alias": "antirez",
+      "website": "https://antirez.com/",
+      "github": "https://github.com/antirez",
+      "x": null,
+      "language": [
+        "it",
+        "en"
+      ],
+      "country": "IT",
+      "creator_type": "researcher",
+      "category": "tech_curiosities",
+      "subcategory": "programming",
+      "reliability": 92,
+      "technical_depth": 95,
+      "editorial_quality": 82,
+      "creator_score": 88,
+      "topics": [
+        "programming",
+        "algorithms",
+        "open source",
+        "LLM",
+        "coding agents",
+        "systems"
+      ],
+      "desc_it": "Autore di Redis. Ragiona ad alta voce su codice, algoritmi e modelli, spesso mostrando esperimenti reali invece di opinioni. Canale bilingue italiano e inglese.",
+      "desc_en": "The author of Redis. He thinks out loud about code, algorithms and models, usually showing real experiments rather than opinions. The channel is bilingual, Italian and English.",
+      "verdict": "Included with a high technical score. Source type stays 'creator': he is a primary source only on his own projects."
+    },
+    "yt-karpathy": {
+      "include": true,
+      "name": "Andrej Karpathy",
+      "alias": null,
+      "website": "https://karpathy.ai/",
+      "github": "https://github.com/karpathy",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "researcher",
+      "category": "ai",
+      "subcategory": "researchers",
+      "reliability": 96,
+      "technical_depth": 98,
+      "editorial_quality": 92,
+      "creator_score": 96,
+      "topics": [
+        "LLM",
+        "training",
+        "from scratch",
+        "neural networks",
+        "tokenization"
+      ],
+      "desc_it": "Ex OpenAI e Tesla. Costruisce i modelli da zero davanti alla telecamera: le sue lezioni sono il riferimento per capire come funziona davvero un LLM.",
+      "desc_en": "Formerly at OpenAI and Tesla. He builds models from scratch on camera: his lectures are the reference for understanding how an LLM actually works.",
+      "verdict": "Included at the top of the ranking. Publishes rarely, every video is a primary reference on the subject."
+    },
+    "yt-3b1b": {
+      "include": true,
+      "name": "3Blue1Brown",
+      "alias": "Grant Sanderson",
+      "website": "https://www.3blue1brown.com/",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "educator",
+      "category": "tech_curiosities",
+      "subcategory": "educators",
+      "reliability": 95,
+      "technical_depth": 92,
+      "editorial_quality": 98,
+      "creator_score": 95,
+      "topics": [
+        "mathematics",
+        "neural networks",
+        "linear algebra",
+        "visualization"
+      ],
+      "desc_it": "Matematica spiegata con animazioni costruite su misura. La serie sulle reti neurali e sui transformer è il miglior punto di partenza visivo esistente.",
+      "desc_en": "Mathematics explained through purpose-built animation. The series on neural networks and transformers is the best visual starting point available.",
+      "verdict": "Included. Low frequency, extremely high value; the scoring already favours depth over volume."
+    },
+    "yt-yannic": {
+      "include": true,
+      "name": "Yannic Kilcher",
+      "alias": null,
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "CH",
+      "creator_type": "researcher",
+      "category": "ai",
+      "subcategory": "researchers",
+      "reliability": 88,
+      "technical_depth": 95,
+      "editorial_quality": 80,
+      "creator_score": 85,
+      "topics": [
+        "papers",
+        "research",
+        "architecture",
+        "critique"
+      ],
+      "desc_it": "Legge e commenta i paper riga per riga, con giudizi critici anche quando il lavoro è molto pubblicizzato.",
+      "desc_en": "Reads and annotates papers line by line, and stays critical even when the work is heavily promoted.",
+      "verdict": "Included. Occasionally opinionated, which is flagged by the source type, not penalised."
+    },
+    "yt-mlst": {
+      "include": true,
+      "name": "Machine Learning Street Talk",
+      "alias": "MLST",
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "UK",
+      "creator_type": "podcast",
+      "category": "ai",
+      "subcategory": "podcasts",
+      "reliability": 88,
+      "technical_depth": 92,
+      "editorial_quality": 82,
+      "creator_score": 85,
+      "topics": [
+        "research",
+        "interviews",
+        "philosophy of AI",
+        "reasoning"
+      ],
+      "desc_it": "Interviste lunghe a ricercatori, con discussioni tecniche che non vengono semplificate per il pubblico generalista.",
+      "desc_en": "Long-form interviews with researchers, with technical discussions that are not simplified for a general audience.",
+      "verdict": "Included as podcast. Episodes are long: valuable, but not breaking news."
+    },
+    "yt-statquest": {
+      "include": true,
+      "name": "StatQuest",
+      "alias": "Josh Starmer",
+      "website": "https://statquest.org/",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "educator",
+      "category": "ai",
+      "subcategory": "educators",
+      "reliability": 92,
+      "technical_depth": 85,
+      "editorial_quality": 95,
+      "creator_score": 88,
+      "topics": [
+        "statistics",
+        "machine learning",
+        "fundamentals"
+      ],
+      "desc_it": "Statistica e machine learning spiegati passo per passo, senza saltare i passaggi intermedi.",
+      "desc_en": "Statistics and machine learning explained step by step, without skipping the intermediate steps.",
+      "verdict": "Included. Foundational rather than topical: scored for depth, not freshness."
+    },
+    "yt-computerphile": {
+      "include": true,
+      "name": "Computerphile",
+      "alias": null,
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "UK",
+      "creator_type": "educator",
+      "category": "tech_curiosities",
+      "subcategory": "computer_science",
+      "reliability": 92,
+      "technical_depth": 85,
+      "editorial_quality": 92,
+      "creator_score": 88,
+      "topics": [
+        "computer science",
+        "algorithms",
+        "security",
+        "explainers"
+      ],
+      "desc_it": "Informatica spiegata da ricercatori universitari. Ideale per la sezione curiosità tecniche.",
+      "desc_en": "Computer science explained by university researchers. A natural fit for the tech curiosities desk.",
+      "verdict": "Included. Perfect match for the 'how does it actually work' section."
+    },
+    "yt-aiexplained": {
+      "include": true,
+      "name": "AI Explained",
+      "alias": null,
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "UK",
+      "creator_type": "analyst",
+      "category": "ai",
+      "subcategory": "ai_creators",
+      "reliability": 85,
+      "technical_depth": 78,
+      "editorial_quality": 85,
+      "creator_score": 85,
+      "topics": [
+        "model releases",
+        "benchmarks",
+        "evaluation",
+        "analysis"
+      ],
+      "desc_it": "Analisi delle release di modelli basata su test propri e lettura dei system card, invece che sui comunicati.",
+      "desc_en": "Analysis of model releases based on his own testing and on reading the system cards, rather than on press releases.",
+      "verdict": "Included. Cites sources and runs his own evaluations — unusual in this niche."
+    },
+    "yt-dwarkesh": {
+      "include": true,
+      "name": "Dwarkesh Patel",
+      "alias": null,
+      "website": "https://www.dwarkesh.com/",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "podcast",
+      "category": "ai",
+      "subcategory": "podcasts",
+      "reliability": 86,
+      "technical_depth": 80,
+      "editorial_quality": 90,
+      "creator_score": 86,
+      "topics": [
+        "interviews",
+        "research",
+        "economics of AI",
+        "long form"
+      ],
+      "desc_it": "Interviste preparate con cura a ricercatori e dirigenti del settore. Domande informate, non promozionali.",
+      "desc_en": "Carefully prepared interviews with researchers and industry leaders. Informed questions, not promotional ones.",
+      "verdict": "Included as podcast."
+    },
+    "yt-bycloud": {
+      "include": true,
+      "name": "bycloud",
+      "alias": null,
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "CA",
+      "creator_type": "analyst",
+      "category": "ai",
+      "subcategory": "ai_creators",
+      "reliability": 78,
+      "technical_depth": 82,
+      "editorial_quality": 76,
+      "creator_score": 78,
+      "topics": [
+        "papers",
+        "architecture",
+        "research roundup"
+      ],
+      "desc_it": "Riassunti di paper recenti con un buon livello tecnico e un montaggio veloce.",
+      "desc_en": "Summaries of recent papers at a decent technical level, edited fast.",
+      "verdict": "Included with a moderate score: technically solid, occasionally leans on hype framing in titles."
+    },
+    "yt-fireship": {
+      "include": true,
+      "name": "Fireship",
+      "alias": "Jeff Delaney",
+      "website": "https://fireship.io/",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "educator",
+      "category": "tech_curiosities",
+      "subcategory": "programming",
+      "reliability": 78,
+      "technical_depth": 70,
+      "editorial_quality": 88,
+      "creator_score": 82,
+      "topics": [
+        "programming",
+        "web",
+        "developer tools",
+        "news"
+      ],
+      "desc_it": "Video brevissimi su novità di programmazione e strumenti. Efficace come segnale, non come approfondimento.",
+      "desc_en": "Very short videos on programming news and tools. Effective as a signal, not as depth.",
+      "verdict": "Included with a low technical score: excellent format, deliberately superficial by design."
+    },
+    "yt-corridorcrew": {
+      "include": true,
+      "name": "Corridor Crew",
+      "alias": null,
+      "website": "https://www.corridordigital.com/",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "vfx_artist",
+      "category": "cinema",
+      "subcategory": "vfx",
+      "reliability": 80,
+      "technical_depth": 82,
+      "editorial_quality": 88,
+      "creator_score": 88,
+      "topics": [
+        "VFX",
+        "compositing",
+        "breakdown",
+        "AI in VFX"
+      ],
+      "desc_it": "Artisti VFX che analizzano effetti di film reali e rifanno le stesse tecniche mostrando il procedimento.",
+      "desc_en": "VFX artists who break down effects from real films and rebuild the same techniques on camera.",
+      "verdict": "Included. Entertainment format, but the technical content is genuine and verifiable."
+    },
+    "yt-indepthcine": {
+      "include": true,
+      "name": "In Depth Cine",
+      "alias": null,
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "UK",
+      "creator_type": "filmmaker",
+      "category": "cinema",
+      "subcategory": "cinematography",
+      "reliability": 88,
+      "technical_depth": 88,
+      "editorial_quality": 90,
+      "creator_score": 88,
+      "topics": [
+        "cinematography",
+        "lighting",
+        "lenses",
+        "film analysis"
+      ],
+      "desc_it": "Analisi della fotografia di film specifici: scelte di ottica, luce e formato spiegate con riferimenti alle interviste ai direttori della fotografia.",
+      "desc_en": "Analysis of the cinematography of specific films: lens, lighting and format choices explained with reference to interviews with the DPs.",
+      "verdict": "Included with a high score. One of the few channels that cites its sources on craft decisions."
+    },
+    "yt-wolfcrow": {
+      "include": true,
+      "name": "wolfcrow",
+      "alias": "Sareesh Sudhakaran",
+      "website": "https://wolfcrow.com/",
+      "language": [
+        "en"
+      ],
+      "country": "IN",
+      "creator_type": "filmmaker",
+      "category": "cinema",
+      "subcategory": "post_production",
+      "reliability": 82,
+      "technical_depth": 88,
+      "editorial_quality": 80,
+      "creator_score": 82,
+      "topics": [
+        "color",
+        "codecs",
+        "cameras",
+        "post workflow",
+        "resolve"
+      ],
+      "desc_it": "Tecnica di ripresa e post spiegata con numeri: codec, spazi colore, gamma dinamica, workflow.",
+      "desc_en": "Shooting and post technique explained with numbers: codecs, colour spaces, dynamic range, workflow.",
+      "verdict": "Included. Among the most rigorous channels on colour and codecs."
+    },
+    "yt-studiobinder": {
+      "include": true,
+      "name": "StudioBinder",
+      "alias": null,
+      "website": "https://www.studiobinder.com/",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "educator",
+      "category": "cinema",
+      "subcategory": "cinematography",
+      "reliability": 82,
+      "technical_depth": 70,
+      "editorial_quality": 92,
+      "creator_score": 85,
+      "topics": [
+        "directing",
+        "cinematography",
+        "editing",
+        "film theory"
+      ],
+      "desc_it": "Video saggi sul linguaggio cinematografico, ben montati e didatticamente ordinati.",
+      "desc_en": "Video essays on film language, well edited and pedagogically organised.",
+      "verdict": "Included. Commercial channel attached to a software product, which is stated openly."
+    },
+    "yt-filmriot": {
+      "include": true,
+      "name": "Film Riot",
+      "alias": "Ryan Connolly",
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "filmmaker",
+      "category": "tutorials",
+      "subcategory": "vfx_workflow",
+      "reliability": 78,
+      "technical_depth": 72,
+      "editorial_quality": 82,
+      "creator_score": 80,
+      "topics": [
+        "practical effects",
+        "VFX",
+        "filmmaking",
+        "low budget"
+      ],
+      "desc_it": "Tutorial pratici su effetti, ripresa e post per produzioni a basso budget.",
+      "desc_en": "Practical tutorials on effects, shooting and post for low-budget productions.",
+      "verdict": "Included in the tutorials category."
+    },
+    "yt-nofilmschool": {
+      "include": true,
+      "name": "No Film School",
+      "alias": null,
+      "website": "https://nofilmschool.com/",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "educator",
+      "category": "cinema",
+      "subcategory": "production",
+      "reliability": 78,
+      "technical_depth": 70,
+      "editorial_quality": 78,
+      "creator_score": 76,
+      "topics": [
+        "filmmaking",
+        "gear",
+        "interviews"
+      ],
+      "desc_it": "Versione video della testata: interviste e guide pratiche.",
+      "desc_en": "The video arm of the publication: interviews and practical guides.",
+      "verdict": "Included, but weighted below the written outlet which is better edited."
+    },
+    "yt-theoreticallymedia": {
+      "include": true,
+      "name": "Theoretically Media",
+      "alias": "Tim Simmons",
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "filmmaker",
+      "category": "generative_media",
+      "subcategory": "video_generation",
+      "reliability": 78,
+      "technical_depth": 68,
+      "editorial_quality": 80,
+      "creator_score": 78,
+      "topics": [
+        "AI video",
+        "filmmaking",
+        "tool testing",
+        "workflow"
+      ],
+      "desc_it": "Prove pratiche dei modelli video dal punto di vista di chi fa filmmaking, con giudizi misurati.",
+      "desc_en": "Hands-on testing of video models from a filmmaker's perspective, with measured verdicts.",
+      "verdict": "Included. One of the more level-headed channels in the AI video niche."
+    },
+    "yt-curiousrefuge": {
+      "include": true,
+      "name": "Curious Refuge",
+      "alias": null,
+      "website": "https://curiousrefuge.com/",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "educator",
+      "category": "tutorials",
+      "subcategory": "ai_filmmaking",
+      "reliability": 76,
+      "technical_depth": 68,
+      "editorial_quality": 80,
+      "creator_score": 78,
+      "topics": [
+        "AI filmmaking",
+        "advertising",
+        "workflow",
+        "courses"
+      ],
+      "desc_it": "Workflow completi di AI filmmaking. Da tenere presente che promuove corsi a pagamento propri.",
+      "desc_en": "Complete AI filmmaking workflows. Worth noting that it promotes its own paid courses.",
+      "verdict": "Included with the commercial interest noted in the description, not hidden."
+    },
+    "yt-olivio": {
+      "include": true,
+      "name": "Olivio Sarikas",
+      "alias": null,
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "AT",
+      "creator_type": "ai_creator",
+      "category": "generative_media",
+      "subcategory": "image_generation",
+      "reliability": 72,
+      "technical_depth": 72,
+      "editorial_quality": 70,
+      "creator_score": 72,
+      "topics": [
+        "ComfyUI",
+        "Stable Diffusion",
+        "workflow",
+        "local models"
+      ],
+      "desc_it": "Workflow ComfyUI e modelli locali, aggiornati molto rapidamente a ogni nuova release.",
+      "desc_en": "ComfyUI workflows and local models, updated very quickly after each new release.",
+      "verdict": "Included with a moderate score: high volume, quick production, occasionally shallow."
+    },
+    "yt-sebastiankamph": {
+      "include": true,
+      "name": "Sebastian Kamph",
+      "alias": null,
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "SE",
+      "creator_type": "ai_creator",
+      "category": "tutorials",
+      "subcategory": "comfyui",
+      "reliability": 74,
+      "technical_depth": 74,
+      "editorial_quality": 74,
+      "creator_score": 74,
+      "topics": [
+        "ComfyUI",
+        "Stable Diffusion",
+        "FLUX",
+        "workflow"
+      ],
+      "desc_it": "Tutorial su workflow locali di generazione immagini e video.",
+      "desc_en": "Tutorials on local image and video generation workflows.",
+      "verdict": "Included in tutorials."
+    },
+    "yt-mattvidpro": {
+      "include": true,
+      "name": "MattVidPro AI",
+      "alias": null,
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "ai_creator",
+      "category": "ai",
+      "subcategory": "ai_creators",
+      "reliability": 66,
+      "technical_depth": 48,
+      "editorial_quality": 70,
+      "creator_score": 66,
+      "topics": [
+        "AI tools",
+        "model testing",
+        "news"
+      ],
+      "desc_it": "Panoramiche sugli strumenti AI. Copertura ampia e rapida, profondità tecnica limitata.",
+      "desc_en": "Overviews of AI tools. Broad and fast coverage, limited technical depth.",
+      "verdict": "Included with a deliberately low score: useful as a signal of what is new, not as a technical reference. The hype penalty in the scoring will push the more sensational titles down on its own."
+    },
+    "yt-mattwolfe": {
+      "include": false,
+      "name": "Matt Wolfe",
+      "alias": null,
+      "website": "https://www.futuretools.io/",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "ai_creator",
+      "category": "ai",
+      "subcategory": "ai_creators",
+      "reliability": 62,
+      "technical_depth": 40,
+      "editorial_quality": 70,
+      "creator_score": 62,
+      "topics": [
+        "AI tools",
+        "news roundup"
+      ],
+      "desc_it": "Rassegne settimanali di strumenti AI.",
+      "desc_en": "Weekly AI tool roundups.",
+      "verdict": "EXCLUDED. Large audience, but the format is a tool roundup with strong promotional framing and little verification. It would add volume without adding accuracy, which is exactly what this platform is built to avoid. Kept in this file so the decision is documented and reversible."
+    },
+    "yt-twominute": {
+      "include": false,
+      "name": "Two Minute Papers",
+      "alias": "Károly Zsolnai-Fehér",
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "HU",
+      "creator_type": "researcher",
+      "category": "ai",
+      "subcategory": "researchers",
+      "reliability": 72,
+      "technical_depth": 58,
+      "editorial_quality": 78,
+      "creator_score": 68,
+      "topics": [
+        "papers",
+        "graphics",
+        "simulation"
+      ],
+      "desc_it": "Riassunti brevissimi di paper, soprattutto di computer graphics.",
+      "desc_en": "Very short paper summaries, mostly on computer graphics.",
+      "verdict": "EXCLUDED for now. The author is a genuine researcher and the paper selection is good, but the delivery is built on superlatives that inflate incremental results. Reconsider if a version with more technical detail appears; the entry stays here so it is one flag away from being enabled."
+    },
+    "yt-teamdeakins": {
+      "include": false,
+      "name": "Team Deakins",
+      "alias": "Roger and James Deakins",
+      "website": "https://teamdeakins.libsyn.com/",
+      "podcast": "https://teamdeakins.libsyn.com/",
+      "language": [
+        "en"
+      ],
+      "country": "UK",
+      "creator_type": "podcast",
+      "category": "cinema",
+      "subcategory": "cinematography",
+      "reliability": 96,
+      "technical_depth": 92,
+      "editorial_quality": 90,
+      "creator_score": 92,
+      "topics": [
+        "cinematography",
+        "lighting",
+        "craft",
+        "interviews"
+      ],
+      "desc_it": "Il podcast di Roger Deakins: conversazioni sulla fotografia cinematografica con chi la fa ai massimi livelli.",
+      "desc_en": "Roger Deakins' podcast: conversations about cinematography with people working at the highest level.",
+      "verdict": "EXCLUDED only because the YouTube handle did not resolve during verification. The podcast RSS on libsyn is the right ingest path and should be added as a podcast source — flagged as pending rather than dropped."
+    },
+    "yt-welchlabs2": {
+      "include": true,
+      "name": "Welch Labs",
+      "alias": null,
+      "website": "https://www.welchlabs.com/",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "educator",
+      "category": "tech_curiosities",
+      "subcategory": "educators",
+      "reliability": 90,
+      "technical_depth": 88,
+      "editorial_quality": 94,
+      "creator_score": 86,
+      "topics": [
+        "mathematics",
+        "neural networks",
+        "visualization",
+        "history of science"
+      ],
+      "desc_it": "Video rari e molto curati, con visualizzazioni originali su matematica e reti neurali.",
+      "desc_en": "Rare, highly crafted videos with original visualisations of mathematics and neural networks.",
+      "verdict": "Included. Very low publishing frequency; kept because the quality justifies it."
+    },
+    "yt-cinematography": {
+      "include": true,
+      "name": "Cinematography Database",
+      "alias": "Matt Workman",
+      "website": "https://cinematographydb.com/",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "filmmaker",
+      "category": "cinema",
+      "subcategory": "virtual_production",
+      "reliability": 82,
+      "technical_depth": 88,
+      "editorial_quality": 78,
+      "creator_score": 82,
+      "topics": [
+        "virtual production",
+        "Unreal Engine",
+        "previz",
+        "cinematography",
+        "lighting"
+      ],
+      "desc_it": "Matt Workman lavora sul punto di contatto fra fotografia cinematografica e motori 3D: previz, virtual production e simulazione della luce in Unreal.",
+      "desc_en": "Matt Workman works at the meeting point of cinematography and 3D engines: previz, virtual production and light simulation in Unreal.",
+      "verdict": "Included. Covers a niche — previz and virtual production for DPs — that no written source in this list covers well."
+    },
+    "yt-thisguyedits": {
+      "include": true,
+      "name": "This Guy Edits",
+      "alias": "Sven Pape",
+      "website": "https://thisguyedits.com/",
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "filmmaker",
+      "category": "cinema",
+      "subcategory": "post_production",
+      "reliability": 86,
+      "technical_depth": 82,
+      "editorial_quality": 88,
+      "creator_score": 86,
+      "topics": [
+        "editing",
+        "montage",
+        "film analysis",
+        "post production",
+        "rhythm"
+      ],
+      "desc_it": "Sven Pape è un montatore professionista e analizza il montaggio di film reali mostrando le alternative scartate. È la fonte più vicina alla rubrica di montaggio di questa piattaforma.",
+      "desc_en": "Sven Pape is a working editor who breaks down the cutting of real films and shows the alternatives that were discarded. The closest source to this platform's editing column.",
+      "verdict": "Included with a high score. Rare case of a practising editor explaining decisions rather than software."
+    },
+    "yt-aputure": {
+      "include": false,
+      "name": "Aputure",
+      "alias": null,
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": null,
+      "creator_type": "creator",
+      "category": "cinema",
+      "subcategory": "production",
+      "reliability": 0,
+      "technical_depth": 0,
+      "editorial_quality": 0,
+      "creator_score": 0,
+      "topics": [],
+      "desc_it": "",
+      "desc_en": "",
+      "verdict": "EXCLUDED: the @Aputure and @AputureChannel handles did not resolve to a channel ID during verification. It is a lighting manufacturer, so it would be a primary source on its own products rather than a creator. Re-check the handle before enabling."
+    },
+    "yt-blackmagic": {
+      "include": false,
+      "name": "Blackmagic Design",
+      "alias": null,
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": null,
+      "creator_type": "creator",
+      "category": "cinema",
+      "subcategory": "production",
+      "reliability": 0,
+      "technical_depth": 0,
+      "editorial_quality": 0,
+      "creator_score": 0,
+      "topics": [],
+      "desc_it": "",
+      "desc_en": "",
+      "verdict": "EXCLUDED: handle did not resolve. Would be a primary source for DaVinci Resolve releases, which matters for the post-production desk. Worth re-checking the correct channel URL."
+    },
+    "yt-lightsfilmschool": {
+      "include": false,
+      "name": "Lights Film School",
+      "alias": null,
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": null,
+      "creator_type": "creator",
+      "category": "cinema",
+      "subcategory": "production",
+      "reliability": 0,
+      "technical_depth": 0,
+      "editorial_quality": 0,
+      "creator_score": 0,
+      "topics": [],
+      "desc_it": "",
+      "desc_en": "",
+      "verdict": "EXCLUDED: handle did not resolve, and the channel overlaps with sources already covered (No Film School, StudioBinder). Low priority."
+    },
+    "yt-artofthefilm": {
+      "include": false,
+      "name": "Every Frame a Painting",
+      "alias": "Tony Zhou, Taylor Ramos",
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "CA",
+      "creator_type": "filmmaker",
+      "category": "cinema",
+      "subcategory": "cinematography",
+      "reliability": 90,
+      "technical_depth": 72,
+      "editorial_quality": 96,
+      "creator_score": 88,
+      "topics": [
+        "film analysis",
+        "editing",
+        "composition"
+      ],
+      "desc_it": "Video saggi sul linguaggio cinematografico, fra i migliori mai prodotti.",
+      "desc_en": "Video essays on film language, among the best ever made.",
+      "verdict": "EXCLUDED from the daily ingest only because the channel publishes almost nothing: a feed that never updates adds no value to a daily platform. The quality is not in question — worth linking manually from the Cinema section."
+    },
+    "yt-welchlabs": {
+      "include": false,
+      "name": "Welch Labs (handle non risolto)",
+      "alias": null,
+      "website": null,
+      "language": [
+        "en"
+      ],
+      "country": "US",
+      "creator_type": "educator",
+      "category": "tech_curiosities",
+      "subcategory": "educators",
+      "reliability": 0,
+      "technical_depth": 0,
+      "editorial_quality": 0,
+      "creator_score": 0,
+      "topics": [],
+      "desc_it": "",
+      "desc_en": "",
+      "verdict": "EXCLUDED as a duplicate: the @WelchLabsVideo handle does not resolve, while @welchlabs does. The working entry is yt-welchlabs2."
+    }
+  }
+}

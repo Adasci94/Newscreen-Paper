@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://newscreen.local/schemas/articles-schema.json",
+  "title": "Article",
+  "description": "A single piece of content ingested from one source. Never stores full copyrighted text: only title, a short summary derived from the feed excerpt, metadata and the canonical link back to the original.",
+  "type": "object",
+  "required": ["id", "source_id", "url", "title_original", "original_language", "category", "content_type", "source_type", "published_at"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "description": "Stable hash of the canonical URL." },
+    "source_id": { "type": "string", "description": "References sources.json[].id" },
+    "creator_id": { "type": ["string", "null"], "description": "References creators.json[].id when the author is a tracked creator." },
+
+    "title_original": { "type": "string" },
+    "title_it": { "type": ["string", "null"], "description": "Null when no Italian translation exists yet; the UI falls back to title_original with a language badge." },
+    "title_en": { "type": ["string", "null"] },
+
+    "summary_original": { "type": ["string", "null"], "maxLength": 600 },
+    "summary_it": { "type": ["string", "null"], "maxLength": 600 },
+    "summary_en": { "type": ["string", "null"], "maxLength": 600 },
+
+    "url": { "type": "string", "format": "uri", "description": "Always the original publisher URL. Never a copy hosted by this app." },
+    "canonical_url": { "type": "string", "format": "uri", "description": "Normalised URL used for deduplication (no tracking params, no trailing slash)." },
+
+    "published_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": ["string", "null"], "format": "date-time" },
+    "ingested_at": { "type": "string", "format": "date-time" },
+
+    "original_language": { "type": "string", "enum": ["it", "en", "other"] },
+    "available_languages": { "type": "array", "items": { "type": "string", "enum": ["it", "en"] } },
+
+    "category": { "type": "string", "description": "Macro category id from categories.json" },
+    "subcategory": { "type": ["string", "null"] },
+    "tags": { "type": "array", "items": { "type": "string" } },
+
+    "entities": {
+      "type": "object",
+      "description": "Extracted named entities, used for event clustering and cross-linking.",
+      "properties": {
+        "models": { "type": "array", "items": { "type": "string" } },
+        "companies": { "type": "array", "items": { "type": "string" } },
+        "people": { "type": "array", "items": { "type": "string" } },
+        "tools": { "type": "array", "items": { "type": "string" } },
+        "films": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+
+    "content_type": { "type": "string", "description": "content_types id from categories.json" },
+    "source_type": { "type": "string", "description": "source_types id from categories.json" },
+
+    "scores": {
+      "type": "object",
+      "required": ["overall_score"],
+      "properties": {
+        "importance_score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "quality_score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "credibility_score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "technical_score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "freshness_score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "creator_score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "hype_score": { "type": "number", "minimum": 0, "maximum": 100, "description": "Penalty signal: high means clickbait/hype wording. Subtracted from overall_score." },
+        "overall_score": { "type": "number", "minimum": 0, "maximum": 100 }
+      },
+      "additionalProperties": false
+    },
+
+    "event_id": { "type": ["string", "null"], "description": "References events.json[].event_id when clustered with other coverage of the same story." },
+    "is_event_primary": { "type": "boolean", "description": "True for the single best article representing its event on the Home." },
+
+    "image_url": { "type": ["string", "null"], "description": "Only stored when the feed explicitly exposes a media/enclosure image; hotlinked, never rehosted." },
+    "thumbnail_url": { "type": ["string", "null"] },
+
+    "media": {
+      "type": ["object", "null"],
+      "description": "Present for video and podcast items.",
+      "properties": {
+        "kind": { "type": "string", "enum": ["youtube", "podcast"] },
+        "video_id": { "type": ["string", "null"] },
+        "channel": { "type": ["string", "null"] },
+        "channel_id": { "type": ["string", "null"] },
+        "duration": { "type": ["string", "null"], "description": "ISO 8601 duration; null when the feed does not expose it (no API key)." },
+        "audio_url": { "type": ["string", "null"] },
+        "transcript_available": { "type": ["boolean", "null"] }
+      },
+      "additionalProperties": false
+    },
+
+    "tutorial": {
+      "type": ["object", "null"],
+      "description": "Present when content_type is tutorial or workflow.",
+      "properties": {
+        "tool": { "type": ["string", "null"] },
+        "difficulty": { "type": ["string", "null"], "enum": ["beginner", "intermediate", "advanced", null] },
+        "estimated_time": { "type": ["string", "null"] },
+        "author": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://newscreen.local/schemas/models-schema.json",
+  "title": "Model",
+  "description": "A tracked AI model in the Model Watch section. Benchmark figures are never scraped from Artificial Analysis or LMArena: the record links out to their pages, which remain the authority.",
+  "type": "object",
+  "required": ["id", "name", "provider", "type"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string", "description": "Never translated." },
+    "provider": { "type": "string", "description": "Never translated." },
+    "type": { "type": "string", "enum": ["llm", "image", "video", "audio", "multimodal", "embedding", "reranker", "vision", "speech", "3d"] },
+    "modality": { "type": "array", "items": { "type": "string", "enum": ["text", "image", "video", "audio", "3d", "code"] } },
+    "release_date": { "type": ["string", "null"], "format": "date" },
+    "context_window": { "type": ["integer", "null"], "description": "In tokens; null for non-text models." },
+    "price": {
+      "type": ["object", "null"],
+      "properties": {
+        "input_per_mtok": { "type": ["number", "null"] },
+        "output_per_mtok": { "type": ["number", "null"] },
+        "per_second": { "type": ["number", "null"], "description": "Video models." },
+        "per_image": { "type": ["number", "null"] },
+        "currency": { "type": "string" },
+        "as_of": { "type": ["string", "null"], "format": "date" }
+      },
+      "additionalProperties": false
+    },
+    "speed": { "type": ["number", "null"], "description": "Output tokens/sec, when published." },
+    "latency": { "type": ["number", "null"], "description": "Time to first token, seconds." },
+    "benchmark_score": { "type": ["number", "null"] },
+    "artificial_analysis_url": { "type": ["string", "null"] },
+    "lmarena_url": { "type": ["string", "null"] },
+    "official_url": { "type": ["string", "null"] },
+    "docs_url": { "type": ["string", "null"] },
+    "image_capabilities": { "type": ["array", "null"], "items": { "type": "string" } },
+    "video_capabilities": { "type": ["array", "null"], "items": { "type": "string" } },
+    "max_duration_s": { "type": ["number", "null"], "description": "Video models: maximum clip length." },
+    "max_resolution": { "type": ["string", "null"] },
+    "open_weights": { "type": "boolean" },
+    "license": { "type": ["string", "null"] },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "notes_it": { "type": ["string", "null"] },
+    "notes_en": { "type": ["string", "null"] },
+    "data_source": { "type": "string", "description": "Where the figures came from and when they were last checked by hand." }
+  }
+}
