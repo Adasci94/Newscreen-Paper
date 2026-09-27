@@ -895,7 +895,7 @@ tbody tr:hover { background: var(--surface-hover); }
   .main-nav { justify-content: flex-start; padding: 0 16px; }
   .backbar-inner { padding: 0 16px; }
   .footer-inner { padding: 22px 16px 36px; }
-  .search-overlay { padding: 0; }
+  .search-overlay { padding: env(safe-area-inset-top) 0 0; }
   .search-panel { max-width: none; max-height: 100%; height: 100%; border: 0; }
   .search-field input { font-size: 16px; }  /* evita lo zoom automatico di iOS */
 }
@@ -910,6 +910,32 @@ tbody tr:hover { background: var(--surface-hover); }
   .card-media img, .row-thumb, .article-hero { filter: none; }
   .section-link { padding: 10px 0 10px 12px; }
   .card-source, .profile-link { padding-top: 4px; padding-bottom: 4px; }
+}
+
+/* ---------------------------------------------- iPhone: zone proibite
+
+   Aggiunta a Home, l'app occupa tutto lo schermo e finisce SOTTO la barra di
+   stato e la Dynamic Island. Qui le si restituisce lo spazio che le spetta:
+   la testata si abbassa, e la sua carta riempie anche la fascia in alto, così
+   l'orologio non galleggia sul nulla. Le barre appiccicose scendono della
+   stessa quantità, altrimenti si incastrerebbero sotto l'isola. */
+@supports (padding: env(safe-area-inset-top)) {
+  /* Fascia piena dietro l'orologio e l'isola: senza, scorrendo il testo degli
+     articoli passa sotto e si legge a metà. Sta sopra la pagina ma sotto la
+     ricerca a tutto schermo. */
+  body::before {
+    content: ''; position: fixed; top: 0; left: 0; right: 0;
+    height: env(safe-area-inset-top);
+    background: var(--paper);
+    z-index: 250; pointer-events: none;
+  }
+  .site-header { padding-top: env(safe-area-inset-top); }
+  .nav-strip   { top: env(safe-area-inset-top); }
+  .backbar     { top: calc(var(--nav-h) + env(safe-area-inset-top)); }
+  .search-overlay { padding-top: calc(8vh + env(safe-area-inset-top)); }
+  .pull-indicator { padding-top: env(safe-area-inset-top);
+                    height: calc(52px + env(safe-area-inset-top));
+                    margin-top: calc(-52px - env(safe-area-inset-top)); }
 }
 
 @supports (padding: env(safe-area-inset-left)) {
